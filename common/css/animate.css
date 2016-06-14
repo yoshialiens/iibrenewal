@@ -1,4 +1,4 @@
-/*
+
 @-webkit-keyframes LR-01 {
 from, to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
 10%, 30%, 50%, 70%, 90% {-webkit-transform: translate3d(-10px, 0, 0);transform: translate3d(-10px, 0, 0);}
@@ -60,4 +60,4 @@ from, to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0
 50%	{transform:rotate(0.8deg)	translate(0px,3px);}
 75%	{transform:rotate(0.4deg)	translate(-3px,0);}
 100%	{transform:rotate(0deg)	translate(0,0);}
-}*/
+}
