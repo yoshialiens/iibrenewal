@@ -33,11 +33,7 @@ BASIC
 html{-webkit-text-size-adjust:100%}
 body{color:#000; font-size:16px;font-family:Meiryo, メイリオ, Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;background:#f1f0f0; line-height:1.8;}
 body.index { background:url(../img/index/bg.jpg) repeat;}
-body.about { background:url(../img/about/bg.jpg) repeat;}
-body.service { background:url(../img/service/bg.jpg) repeat;}
-body.surprise { background:url(../img/surprise/bg.jpg) repeat;}
-body.post { background:#68a497;}
-body.article {}
+body.about,body.service,body.surprise,body.surprise,body.post,body.member,body.blog,body.present { background:url(../img/common/bg.jpg) repeat;}
 a{color:#000;text-decoration:none;}
 a:hover{color:#000;}
 p {margin-bottom:15px;}
@@ -65,6 +61,9 @@ section{margin:0 0;}
 #about-wrap{width:1200px; background:url(../img/about/bg-island.png) no-repeat;margin: 200px auto 100px; height:1047px;}
 #service-wrap{width:1200px; background:url(../img/service/bg-island.png) no-repeat;margin: 160px auto 100px; height:1102px;}
 #surprise-wrap{width:1200px; background:url(../img/surprise/bg-island.png) no-repeat;margin: 230px auto 200px; height:912px;}
+#member-wrap{width:1200px; background:url(../img/member/bg-island.png) no-repeat;margin: 350px auto 200px; height:795px;}
+#blog-wrap{width:1200px; background:url(../img/blog/bg-island.png) no-repeat;margin: 500px auto 300px; height:504px;}
+#present-wrap{width:1200px; background:url(../img/present/bg-island.png) no-repeat;margin: 280px auto 0; height:892px;}
 
 /* #header */
 header { height:40px; background:#fff; width:100%; position:fixed; top:0; min-width:1200px; z-index:1000; padding:15px;}

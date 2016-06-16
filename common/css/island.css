@@ -133,4 +133,146 @@
 #SurpriseBlock .board03 .BoardBlock{width:290px;margin:68px 0 0 40px;}
 #SurpriseBlock .board03 .BoardBlock a{left:159px;}
 
+
+/* #MemberBlock */
+#MemberBlock { background:url(../img/member/mountain.png) no-repeat; position:absolute; margin: 18px 0 0 135px;width:938px; height:759px;}
+#MemberBlock .Title { position:absolute; top:-270px; left:340px;text-align:center;}
+#MemberBlock .Title h2{margin-bottom:4px;}
+#MemberBlock .Title p {text-align:center;font-size:16px;color:#4e4e4e;}
+#MemberBlock .Title p.subTitle{margin-bottom:30px;font-size:18px;}
+#MemberBlock .build01 { position:absolute; top:370px; left:453px;}
+#MemberBlock .build02 { position:absolute; top:672px; left:580px;}
+#MemberBlock .build03 { position:absolute; top:644px; left:744px;}
+#MemberBlock .frame01 { position:absolute; top:250px; left:364px;}
+#MemberBlock .frame02 { position:absolute; top:250px; left:469px;}
+#MemberBlock .frame03 { position:absolute; top:250px; left:578px;}
+#MemberBlock .monster01 { position:absolute; top:260px; left:262px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .monster02 { position:absolute; top:70px; left:570px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:14s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:14s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .monster03 { position:absolute; top:210px; left:760px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .monster04 { position:absolute; top:344px; left:580px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .monster05 { position:absolute; top:74px; left:854px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .monster06 { position:absolute; top:346px; left:284px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .ship01 { position:absolute; top:604px; left:424px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .tower01 { position:absolute; top:-65px; left:748px;}
+#MemberBlock .wall01 { position:absolute; top:230px; left:350px;}
+#MemberBlock .denden { position:absolute; top:230px; left:124px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .hirai { position:absolute; top:253px; left:470px;}
+#MemberBlock .koiken { position:absolute; top:420px; left:250px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .kuni { position:absolute; top:48px; left:430px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .saita { position:absolute; top:16px; left:640px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .shin { position:absolute; top:253px; left:366px;}
+#MemberBlock .som { position:absolute; top:470px; left:70px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .takenari { position:absolute; top:346px; left:760px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .yakuza { position:absolute; top:440px; left:360px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .yoshi { position:absolute; top:253px; left:580px;}
+#MemberBlock .boarddenden { position:absolute; top:156px; left:100px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .boardhirai { position:absolute; top:178px; left:466px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:14s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:14s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .boardkoiken { position:absolute; top:348px; left:214px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .boardkuni { position:absolute; top:-18px; left:404px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .boardsaita { position:absolute; top:-54px; left:584px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .boardshin { position:absolute; top:178px; left:334px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .boardsom { position:absolute; top:400px; left:2px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .boardtakenari { position:absolute; top:276px; left:731px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#MemberBlock .boardyakuza { position:absolute; top:370px; left:344px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#MemberBlock .boardyoshi { position:absolute; top:178px; left:578px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+
+
+/* #BlogBlock */
+#BlogBlock { background:url(../img/blog/mountain.png) no-repeat; position:absolute; margin: 45px 0 0 118px;width:966px; height:342px;}
+#BlogBlock .Title { position:absolute; top:-440px; left:300px;text-align:center;}
+#BlogBlock .Title h2{margin-bottom:4px;}
+#BlogBlock .Title p {text-align:center;font-size:16px;color:#4e4e4e;}
+#BlogBlock .Title p.subTitle{margin-bottom:30px;font-size:18px;}
+#BlogBlock .build01 { position:absolute; top:298px; left:100px;}
+#BlogBlock .build02 { position:absolute; top:142px; left:16px;}
+#BlogBlock .build03 { position:absolute; top:98px; left:108px;}
+#BlogBlock .build04 { position:absolute; top:170px; left:350px;}
+#BlogBlock .build05 { position:absolute; top:120px; left:596px;}
+#BlogBlock .build06 { position:absolute; top:70px; left:616px;}
+#BlogBlock .build07 { position:absolute; top:-6px; left:766px;}
+#BlogBlock .build08 { position:absolute; top:-42px; left:562px;}
+#BlogBlock .build09 { position:absolute; top:126px; left:266px;}
+#BlogBlock .build10 { position:absolute; top:144px; left:216px;}
+#BlogBlock .build11 { position:absolute; top:200px; left:190px;}
+#BlogBlock .build12 { position:absolute; top:90px; left:284px;}
+#BlogBlock .build13 { position:absolute; top:138px; left:744px;}
+#BlogBlock .build14 { position:absolute; top:-102px; left:450px;}
+#BlogBlock .build15 { position:absolute; top:4px; left:254px;}
+#BlogBlock .build16 { position:absolute; top:74px; left:498px;}
+#BlogBlock .build17 { position:absolute; top:70px; left:426px;}
+#BlogBlock .car01 { position:absolute; top:114px; left:568px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#BlogBlock .people01 { position:absolute; top:140px; left:332px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#BlogBlock .people02 { position:absolute; top:128px; left:858px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#BlogBlock .tree01 { position:absolute; top:234px; left:334px;}
+#BlogBlock .board01 { background:url(../img/blog/hv/board-01.png) no-repeat;  position:absolute; top:-212px; left:38px; width:487px; height:146px;}
+#BlogBlock .board02 { background:url(../img/blog/hv/board-02.png) no-repeat;  position:absolute; top:-216px; left:604px; width:360px; height:177px;}
+#BlogBlock .board03 { background:url(../img/blog/hv/board-03.png) no-repeat;  position:absolute; top:246px; left:-32px; width:329px; height:338px;}
+#BlogBlock .board04 { background:url(../img/blog/hv/board-04.png) no-repeat;  position:absolute; top:250px; left:312px; width:329px; height:249px;}
+#BlogBlock .board05 { background:url(../img/blog/hv/board-05.png) no-repeat;  position:absolute; top:198px; left:656px; width:329px; height:177px;}
+#BlogBlock .BoardBlock{width:270px;padding:10px 20px;}
+#BlogBlock .BoardBlock h3{color:#4b83c4; font-size:20px;}
+#BlogBlock .BoardBlock p{color:#727272;line-height:1.6;}
+#BlogBlock .BoardBlock a{display:inline-block;position:relative;top:-11px;left:134px;}
+#BlogBlock .board02 .BoardBlock{width:290px;margin-left:30px;}
+#BlogBlock .board03 .BoardBlock{width:290px;margin-top:192px;}
+#BlogBlock .board03 .BoardBlock a{left:156px;}
+#BlogBlock .board04 .BoardBlock{width:290px;margin-top:102px;}
+#BlogBlock .board04 .BoardBlock a{left:156px;}
+#BlogBlock .board05 .BoardBlock{width:290px;margin-top:30px;}
+#BlogBlock .board05 .BoardBlock a{left:156px;}
+
+
+/* #PresentBlock */
+#PresentBlock { background:url(../img/present/mountain.png) no-repeat; position:absolute; margin: 20px 0 0 167px;width:879px; height:873px;}
+#PresentBlock .Title { position:absolute; top:-210px;left:190px;text-align:center;}
+#PresentBlock .Title h2{margin-bottom:4px;}
+#PresentBlock .Title p {text-align:center;font-size:16px;color:#4e4e4e;}
+#PresentBlock .Title p.subTitle{margin-bottom:30px;font-size:18px;}
+#PresentBlock .build01 { position:absolute; top:786px; left:660px;}
+#PresentBlock .build02 { position:absolute; top:300px; left:590px;}
+#PresentBlock .build03 { position:absolute; top:394px; left:696px;}
+#PresentBlock .build04 { position:absolute; top:82px; left:342px;}
+#PresentBlock .build05 { position:absolute; top:160px; left:206px;}
+#PresentBlock .build06 { position:absolute; top:790px; left:770px;}
+#PresentBlock .build07 { position:absolute; top:300px; left:230px;}
+#PresentBlock .build08 { position:absolute; top:360px; left:108px;}
+#PresentBlock .build09 { position:absolute; top:256px; left:340px;}
+#PresentBlock .build10 { position:absolute; top:690px; left:404px;}
+#PresentBlock .build11 { position:absolute; top:404px; left:570px;}
+#PresentBlock .build12 { position:absolute; top:530px; left:610px;}
+#PresentBlock .build13 { position:absolute; top:578px; left:336px;}
+#PresentBlock .ninja01 { position:absolute; top:592px; left:116px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .ninja02 { position:absolute; top:240px; left:470px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .ninja03 { position:absolute; top:770px; left:150px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .ninja04 { position:absolute; top:36px; left:342px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .ninja05 { position:absolute; top:478px; left:514px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .ninja06 { position:absolute; top:276px; left:690px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .object01 { position:absolute; top:134px; left:578px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .object02 { position:absolute; top:360px; left:64px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .object03 { position:absolute; top:594px; left:600px;}
+#PresentBlock .object04 { position:absolute; top:220px; left:150px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .object05 { position:absolute; top:612px; left:120px;}
+#PresentBlock .people01 { position:absolute; top:560px; left:42px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .people02 { position:absolute; top:578px; left:726px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .people03 { position:absolute; top:420px; left:86px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .people04 { position:absolute; top:427px; left:64px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .people05 { position:absolute; top:126px; left:364px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:8s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .people06 { position:absolute; top:390px; left:322px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .people07 { position:absolute; top:650px; left:250px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .people08 { position:absolute; top:571px; left:707px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .people09 { position:absolute; top:420px; left:670px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .people10 { position:absolute; top:622px; left:422px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .tree01 { position:absolute; top:118px; left:412px;}
+#PresentBlock .tree02 { position:absolute; top:416px; left:108px;}
+#PresentBlock .tree03 { position:absolute; top:438px; left:216px;}
+#PresentBlock .tree04 { position:absolute; top:180px; left:334px;}
+#PresentBlock .animal01 { position:absolute; top:540px; left:-14px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .animal02 { position:absolute; top:478px; left:320px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:12s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:12s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
+#PresentBlock .bird01 { position:absolute; top:324px; left:454px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .btn01 { position:absolute; top:380px; left:94px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .btn02 { position:absolute; top:260px; left:490px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+#PresentBlock .btn03 { position:absolute; top:24px; left:440px;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+
+
+
 .btn01:hover{cursor:pointer;}

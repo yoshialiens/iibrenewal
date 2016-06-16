@@ -21,10 +21,10 @@
 <meta property="og:title" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
-<meta property="og:url" content="http://www.i-i-b.jp/" />
-<meta property="og:site_name" content="" />
+<meta property="og:url" content="http://www.i-i-b.jp/service.php" />
+<meta property="og:site_name" content="株式会社いないいないばぁ" />
 <meta property="og:description" content="" />
-<link rel="alternate" media="only screen and (max-width: 727px)" href="http://www.i-i-b.jp/sp/" />
+<link rel="alternate" media="only screen and (max-width: 727px)" href="http://www.i-i-b.jp/sp/service.php" />
 </head>
 
 <body class="service">
@@ -45,7 +45,7 @@
 
 <section>
 <div id="ServiceBlock">
-<div class="Title"><h2><img src="common/img/service/h2.png" width="235" height="35" alt="サービスの島"/></h2><p>サービスの島</p></div>
+<div class="Title"><h2><img src="common/img/service/h2.png" width="229" height="35" alt="十八番（オハコ）の島"/></h2><p>十八番（オハコ）の島</p></div>
 <div class="monster01"><img src="common/img/service/monster-01.png" width="61" height="86" alt=""/></div>
 <div class="monster02"><img src="common/img/service/monster-02.png" width="56" height="119" alt=""/></div>
 <div class="build01"><img src="common/img/service/building-01.png" width="188" height="118" alt=""/></div>
@@ -75,7 +75,7 @@
 </section>
 
 
-</div><!-- /index-wrap -->
+</div><!-- /service-wrap -->
 </div><!-- wrapper -->
 
 

@@ -22,7 +22,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
 <meta property="og:url" content="http://www.i-i-b.jp/" />
-<meta property="og:site_name" content="" />
+<meta property="og:site_name" content="株式会社いないいないばぁ" />
 <meta property="og:description" content="" />
 <link rel="alternate" media="only screen and (max-width: 727px)" href="http://www.i-i-b.jp/sp/" />
 </head>
@@ -91,7 +91,7 @@
 
 <section>
 <div id="AboutBlock">
-<h2><img src="common/img/index/about/h2.png" width="147" height="46" alt="いないいないばぁについて"/></h2>
+<h2><a href="about.php"><img src="common/img/index/about/h2.png" width="147" height="46" alt="いないいないばぁについて"/></a></h2>
 <div class="bird01"><img src="common/img/index/about/bird-01.png" width="71" height="64" alt=""/></div>
 <div class="bird02"><img src="common/img/index/about/bird-02.png" width="122" height="59" alt=""/></div>
 <div class="lion01"><img src="common/img/index/about/lion-01.png" width="110" height="68" alt=""/></div>
@@ -103,7 +103,7 @@
 
 <section>
 <div id="ServiceBlock">
-<h2><img src="common/img/index/service/h2.png" width="166" height="46" alt="いないいないばぁの事業"/></h2>
+<h2><a href="service.php"><img src="common/img/index/service/h2.png" width="161" height="46" alt="いないいないばぁの事業"/></a></h2>
 <div class="horse01"><img src="common/img/index/service/horse-01.png" width="103" height="89" alt=""/></div>
 <div class="balloon01"><img src="common/img/index/service/balloon-01.png" width="50" height="74" alt=""/></div>
 <div class="car01"><img src="common/img/index/service/car-01.png" width="60" height="41" alt=""/></div>
@@ -114,7 +114,7 @@
 
 <section>
 <div id="MemberBlock">
-<h2><img src="common/img/index/member/h2.png" width="182" height="47" alt="いないいないばぁのメンバー紹介"/></h2>
+<h2><a href="member.php"><img src="common/img/index/member/h2.png" width="182" height="47" alt="いないいないばぁのメンバー紹介"/></a></h2>
 <div class="man01"><img src="common/img/index/member/man-01.png" width="102" height="93" alt=""/></div>
 <div class="man02"><img src="common/img/index/member/man-02.png" width="50" height="109" alt=""/></div>
 <div class="man03"><img src="common/img/index/member/man-03.png" width="123" height="64" alt=""/></div>
@@ -126,7 +126,7 @@
 
 <section>
 <div id="SurpriseBlock">
-<h2><img src="common/img/index/surprise/h2.png" width="181" height="46" alt="サプライズマーケティング"/></h2>
+<h2><a href="surprise.php"><img src="common/img/index/surprise/h2.png" width="181" height="46" alt="サプライズマーケティング"/></a></h2>
 <div class="balloon01"><img src="common/img/index/surprise/balloon-01.png" width="67" height="100" alt=""/></div>
 <div class="bard01"><img src="common/img/index/surprise/bard-01.png" width="47" height="86" alt=""/></div>
 <div class="bear01"><img src="common/img/index/surprise/bear-01.png" width="89" height="132" alt=""/></div>
@@ -141,15 +141,15 @@
 
 <section>
 <div id="BlogBlock">
-<h2><img src="common/img/index/blog/h2.png" width="139" height="46" alt="いないいないばぁのブログ"/></h2>
+<h2><a href="article.php"><img src="common/img/index/blog/h2.png" width="139" height="46" alt="いないいないばぁのブログ"/></a></h2>
 <div class="ice01"><img src="common/img/index/blog/ice-01.png" width="119" height="109" alt=""/></div>
-<div class="btn01"><img src="common/img/index/blog/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a href="article.php"><img src="common/img/index/blog/btn-01.png" width="103" height="145" alt=""/></a></div>
 </div>
 </section>
 
 <section>
 <div id="PresentBlock">
-<h2><img src="common/img/index/present/h2.png" width="169" height="46" alt="いないいないばぁからのプレゼント"/></h2>
+<h2><a href="present.php"><img src="common/img/index/present/h2.png" width="169" height="46" alt="いないいないばぁからのプレゼント"/></a></h2>
 <div class="bard01"><img src="common/img/index/present/bard-01.png" width="45" height="43" alt=""/></div>
 <div class="buddha01"><img src="common/img/index/present/buddha-01.png" width="61" height="82" alt=""/></div>
 <div class="demon01"><img src="common/img/index/present/demon-01.png" width="57" height="56" alt=""/></div>
@@ -190,11 +190,11 @@
 <div class="menu">
 <ul>
 <li class="plane"><img src="common/img/index/about/hv/plane-01.png" width="211" height="77" alt="飛行機"></li>
-<li class="menu01"><a href="#"><img src="common/img/index/about/hv/btn-about01.png" width="116" height="63" alt="会社概要"></a></li>
-<li class="menu02 Hv"><a href="#"><img src="common/img/index/about/hv/btn-about02.png" width="98" height="59" alt="歴史"></a></li>
-<li class="menu03 Hv"><a href="#"><img src="common/img/index/about/hv/btn-about03.png" width="98" height="59" alt="クレド"></a></li>
-<li class="menu04 Hv"><a href="#"><img src="common/img/index/about/hv/btn-about04.png" width="117" height="69" alt="代表挨拶"></a></li>
-<li class="menu05 Hv"><a href="#"><img src="common/img/index/about/hv/btn-about05.png" width="117" height="70" alt="採用情報"></a></li>
+<li class="menu01"><a href="about.php"><img src="common/img/index/about/hv/btn-about01.png" width="116" height="63" alt="会社概要"></a></li>
+<li class="menu02 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about02.png" width="98" height="59" alt="歴史"></a></li>
+<li class="menu03 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about03.png" width="98" height="59" alt="クレド"></a></li>
+<li class="menu04 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about04.png" width="117" height="69" alt="代表挨拶"></a></li>
+<li class="menu05 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about05.png" width="117" height="70" alt="採用情報"></a></li>
 </ul>
 </div>
 </div>
@@ -204,12 +204,12 @@
 <div id="ServiceHvBlock">
 <div class="balloon">
 <ul>
-<li class="balloon01"><a href="#"><img src="common/img/index/service/hv/btn-balloon01.png" width="94" height="216" alt="サプマケ式コンサルティング"></a></li>
-<li class="balloon02"><a href="#"><img src="common/img/index/service/hv/btn-balloon02.png" width="94" height="217" alt="サプマケ式プロモーション"></a></li>
-<li class="balloon03"><a href="#"><img src="common/img/index/service/hv/btn-balloon03.png" width="94" height="217" alt="ボードゲーム制作"></a></li>
-<li class="balloon04"><a href="#"><img src="common/img/index/service/hv/btn-balloon04.png" width="94" height="212" alt="社内サプライズ"></a></li>
-<li class="balloon05"><a href="#"><img src="common/img/index/service/hv/btn-balloon05.png" width="94" height="213" alt="サプマケ式動画制作"></a></li>
-<li class="balloon06"><a href="#"><img src="common/img/index/service/hv/btn-balloon06.png" width="94" height="216" alt="サプマケ式WEB制作"></a></li>
+<li class="balloon01"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon01.png" width="94" height="216" alt="サプマケ式コンサルティング"></a></li>
+<li class="balloon02"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon02.png" width="94" height="217" alt="サプマケ式プロモーション"></a></li>
+<li class="balloon03"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon03.png" width="94" height="217" alt="ボードゲーム制作"></a></li>
+<li class="balloon04"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon04.png" width="94" height="212" alt="社内サプライズ"></a></li>
+<li class="balloon05"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon05.png" width="94" height="213" alt="サプマケ式動画制作"></a></li>
+<li class="balloon06"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon06.png" width="94" height="216" alt="サプマケ式WEB制作"></a></li>
 </ul>
 </div>
 </div>
@@ -220,7 +220,7 @@
 <div class="MemberBalloon">
 <div class="BalloonInner">
 <h3><img src="common/img/index/member/hv/h3.png" width="219" height="24" alt="メンバー紹介するよ"></h3>
-<p class="btn Hv"><a href="#"><img src="common/img/index/member/hv/btn-monster.png" width="161" height="29" alt="Show Me Monsters"></a></p>
+<p class="btn Hv"><a href="member.php"><img src="common/img/index/member/hv/btn-monster.png" width="161" height="29" alt="Show Me Monsters"></a></p>
 </div>
 </div>
 <div class="monster01"><img src="common/img/index/member/hv/monster-01.png" width="187" height="233" alt=""></div>
@@ -231,9 +231,9 @@
 <div id="SurpriseHvBlock">
 <div class="menu">
 <ul>
-<li class="btn01 Hv"><a href="#"><img src="common/img/index/surprise/hv/btn-surprise01.png" width="200" height="67" alt="サプライズマーケティングとは？"></a></li>
-<li class="btn02 Hv"><a href="#"><img src="common/img/index/surprise/hv/btn-surprise02.png" width="156" height="50" alt="サプマケ研究所"></a></li>
-<li class="btn03 Hv"><a href="#"><img src="common/img/index/surprise/hv/btn-surprise03.png" width="200" height="67" alt="あなたのサプライズ魅力度チェック"></a></li>
+<li class="btn01 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise01.png" width="200" height="67" alt="サプライズマーケティングとは？"></a></li>
+<li class="btn02 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise02.png" width="156" height="50" alt="サプマケ研究所"></a></li>
+<li class="btn03 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise03.png" width="200" height="67" alt="あなたのサプライズ魅力度チェック"></a></li>
 </ul>
 </div>
 </div>
@@ -243,9 +243,9 @@
 <div id="PresentHvBlock">
 <div class="menu">
 <ul>
-<li class="btn01 Hv"><a href="#"><img src="common/img/index/present/hv/btn-present01.png" width="125" height="125" alt="入金してみる"></a></li>
-<li class="btn02 Hv"><a href="#"><img src="common/img/index/present/hv/btn-present02.png" width="125" height="125" alt="無料メルマガ"></a></li>
-<li class="btn03 Hv"><a href="#"><img src="common/img/index/present/hv/btn-present03.png" width="125" height="125" alt="無料プレゼント"></a></li>
+<li class="btn01 Hv"><a href="present.php"><img src="common/img/index/present/hv/btn-present01.png" width="125" height="125" alt="入金してみる"></a></li>
+<li class="btn02 Hv"><a href="present.php"><img src="common/img/index/present/hv/btn-present02.png" width="125" height="125" alt="無料メルマガ"></a></li>
+<li class="btn03 Hv"><a href="present.php"><img src="common/img/index/present/hv/btn-present03.png" width="125" height="125" alt="無料プレゼント"></a></li>
 </ul>
 </div>
 </div>

@@ -21,10 +21,10 @@
 <meta property="og:title" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
-<meta property="og:url" content="http://www.i-i-b.jp/" />
-<meta property="og:site_name" content="" />
+<meta property="og:url" content="http://www.i-i-b.jp/surprise.php" />
+<meta property="og:site_name" content="株式会社いないいないばぁ" />
 <meta property="og:description" content="" />
-<link rel="alternate" media="only screen and (max-width: 727px)" href="http://www.i-i-b.jp/sp/" />
+<link rel="alternate" media="only screen and (max-width: 727px)" href="http://www.i-i-b.jp/sp/surprise.php" />
 </head>
 
 <body class="surprise">
@@ -82,7 +82,7 @@
 </section>
 
 
-</div><!-- /index-wrap -->
+</div><!-- /surprise-wrap -->
 </div><!-- wrapper -->
 
 
