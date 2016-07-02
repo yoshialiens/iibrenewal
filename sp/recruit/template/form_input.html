@@ -1,0 +1,35 @@
+<dl>
+<dt>お名前<span class="hissu">※</span></dt>
+<dd><input type="text" name="f_name">
+<!--mess(hissu,f_name)--></dd>
+</dl>
+
+<dl>
+<dt>E-Mail<span class="hissu">※</span></dt>
+<dd><input type="text" name="f_mail">
+<!--mess(hissu,f_mail)--><!--mess(email,f_mail)--></dd>
+</dl>
+
+<dl>
+<dt>E-Mail（確認用）<span class="hissu">※</span></dt>
+<dd><input type="text" name="f_mail2"></dd>
+</dl>
+
+<dl>
+<dt>志望職種<span class="hissu">※</span></dt>
+<dd>
+<select name="f_title">
+<option value="新卒：web制作・企画">新卒：web制作・企画</option>
+<option value="中途：web制作・企画">中途：web制作・企画</option>
+<option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+<option value="その他">その他</option>
+</select>
+<!--mess(hissu,f_title)--></dd>
+</dl>
+
+<dl>
+<dt>質問・お問い合わせ<span class="hissu">※</span></dt>
+<dd><textarea  name="f_text"></textarea><!--mess(hissu,f_text)--></dd>
+</dl>
+
+<div id="btn_send"><input id="send" type="button" onclick="submit();"><label class="btn animation opacity" for="send">入力内容確認</label></div>

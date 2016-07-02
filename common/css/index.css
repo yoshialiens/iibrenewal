@@ -17,10 +17,10 @@
 #NewsHvBlock .NewsBoard h3 {margin:0 0 10px -20px;}
 #NewsHvBlock .NewsBoard h3 img {width:279px;height:27px;}
 #NewsHvBlock .NewsBoard ul li {display:inline-block;width:100%;height:auto;margin-bottom:2px;padding-bottom:4px;font-size:13px;font-family:"HiraginoUDSansFStd";border-bottom:1px dotted #999;}
-#NewsHvBlock .NewsBoard ul li .L {float:left;width:88px;margin-right:32px;text-align:center;}
-#NewsHvBlock .NewsBoard ul li .L .cat {width:60px;height:20px;margin:0 0 4px 0; padding:0 14px;background:#000;color:#fff;line-height:1.6;}
+#NewsHvBlock .NewsBoard ul li .L {float:left;width:122px;margin-right:12px;text-align:center;}
+#NewsHvBlock .NewsBoard ul li .L .cat {width:94px;height:20px;margin:0 0 4px 0; padding:0 14px;background:#000;color:#fff;line-height:1.6;}
 #NewsHvBlock .NewsBoard ul li .L .date {margin:0 auto;color:#1978ab;font-weight:bold;}
-#NewsHvBlock .NewsBoard ul li .R {float:right;width:397px;}
+#NewsHvBlock .NewsBoard ul li .R {float:right;width:383px;}
 #NewsHvBlock .NewsBoard ul li .R p {margin:0 auto;font-weight:bold;}
 #NewsHvBlock .NewsBoard ul li .R p a:hover {color:#1978ab;opacity:1;}
 
@@ -167,66 +167,3 @@
 #SeaBlock .yacht01 { position:absolute; top:340px; left:130px;-webkit-animation-name: News_Bird01;animation-name: LR-01;-webkit-animation-duration:10s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease;-moz-animation-duration:10s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease;}
 
 .btn01:hover{cursor:pointer;}
-
-@-webkit-keyframes LR-01 {
-from, to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
-10%, 30%, 50%, 70%, 90% {-webkit-transform: translate3d(-10px, 0, 0);transform: translate3d(-10px, 0, 0);}
-20%, 40%, 60%, 80% {-webkit-transform: translate3d(10px, 0, 0);transform: translate3d(10px, 0, 0);}
-}
-@keyframes LR-01 {
-from, to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
-10%, 30%, 50%, 70%, 90% {-webkit-transform: translate3d(-10px, 0, 0);transform: translate3d(-10px, 0, 0);}
-20%, 40%, 60%, 80% {-webkit-transform: translate3d(10px, 0, 0);transform: translate3d(10px, 0, 0);}
-}
-
-
-@keyframes Toss-01 {
-0% {transform: rotate(-4deg);}
-50% {transform: rotate(4deg);}
-100% {transform: rotate(-4deg);}
-}
-
-@-webkit-keyframes Toss-01 {
-0% {-webkit-transform: rotate(-4deg);}
-50% {-webkit-transform: rotate(4deg);}
-100% {-webkit-transform: rotate(-4deg);}
-}
-
-
-@keyframes Hatch01 {
-0% {transform: rotate(0deg) scaleY(0.6);}
-20% {transform: rotate(-2deg) scaleY(1.05);}
-35% {transform: rotate(2deg) scaleY(1);}
-50% {transform: rotate(-2deg);}
-65% {transform: rotate(1deg);}
-80% {transform: rotate(-1deg);}
-100% {transform: rotate(0deg);}
-}
-
-@-webkit-keyframes Hatch01 {
-0% {-webkit-transform: rotate(0deg) scaleY(0.6);}
-20% {-webkit-transform: rotate(-2deg) scaleY(1.05);}
-35% {-webkit-transform: rotate(2deg) scaleY(1);}
-50% {-webkit-transform: rotate(-2deg);}
-65% {-webkit-transform: rotate(1deg);}
-80% {-webkit-transform: rotate(-1deg);}
-100% {-webkit-transform: rotate(0deg);}
-}
-
-@-webkit-keyframes spin {
-0% {-webkit-transform: rotate(0deg);}
-100% {-webkit-transform: rotate(360deg);}
-}
-
-@keyframes spin {
-0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
-}
-
-@keyframes rumble{
-0%	{transform:rotate(0deg)	translate(0,0);}
-25%	{transform:rotate(0.4deg)	translate(3px,-3px);}
-50%	{transform:rotate(0.8deg)	translate(0px,3px);}
-75%	{transform:rotate(0.4deg)	translate(-3px,0);}
-100%	{transform:rotate(0deg)	translate(0,0);}
-}

@@ -56,6 +56,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <meta name="description" content="株式会社いないいないばぁは日本一のサプライズマーケティング会社です。口コミやリピートを増やすためのサプライズを提案し、人々に喜んでもらうためのコンサルティングを行います。">
 <meta name="keywords" content="【ここにキーワード】">
+<link rel="canonical" href="http://www.i-i-b.jp/article.php" />
 
 <!--title・icon-->
 <title>記事一覧| 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
@@ -204,8 +205,8 @@
   <footer>
     <p class="f_logo"><img src="common/img/h_logo.png" alt="株式会社いないいないばぁ"></p>
     <ul class="link">
-      <li><a href="#">特定商取引法に基づく表記について</a></li>
-      <li><a href="#">プライバシポリシー</a></li>
+      <li><a href="tokusyo.php">特定商取引法に基づく表記について</a></li>
+      <li><a href="privacy.php">プライバシポリシー</a></li>
     </ul>
     <p class="copy">&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> <a href="/">IIB</a> All Rights Reserved.</p>
   </footer>

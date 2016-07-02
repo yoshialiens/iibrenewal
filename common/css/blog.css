@@ -19,25 +19,25 @@ body{word-wrap:break-word;}
 #PostSec .HandR{position:absolute;right:-88px;bottom:-140px;}
 #PostSec .HandR img{width:102px;height:213px;}
 
-#PostSec .PostBlock{position:relative;width:100%;height:auto;padding:30px 30px 40px;background:#fdece5;box-sizing:border-box;-webkit-box-sizing:border-box;box-shadow: 8px 8px 0px 1px rgba(95, 95, 95, 0.45);-moz-box-shadow: 8px 8px 0px 1px rgba(95, 95, 95, 0.45);-webkit-box-shadow: 8px 8px 0px 1px rgba(95, 95, 95, 0.45);}
+#PostSec .PostBlock{position:relative;width:100%;height:auto;padding:30px 40px 40px;background:#fdece5;font-family:Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;box-sizing:border-box;-webkit-box-sizing:border-box;box-shadow: 8px 8px 0px 1px rgba(95, 95, 95, 0.45);-moz-box-shadow: 8px 8px 0px 1px rgba(95, 95, 95, 0.45);-webkit-box-shadow: 8px 8px 0px 1px rgba(95, 95, 95, 0.45);}
 #PostSec .PostBlock .PostTop{margin:0 auto 30px;background:url(../img/blog/top-line.png)repeat-x left top;border-bottom:7px solid #828384;}
 #PostSec .PostBlock .PostTop .inner{padding-top:30px;}
-#PostSec .PostBlock .PostTop .TopRight{float:right;width:760px;}
+#PostSec .PostBlock .PostTop .TopRight{float:right;width:740px;}
 #PostSec .PostBlock .PostTop .TopRight h1{font-size:34px;font-family:"HiraginoUDSansStd W6";color:#dd5239;line-height:1.4;}
 #PostSec .PostBlock .PostTop .TopLeft{float:left;width:170px;margin:10px 34px 0 0;}
 #PostSec .PostBlock .PostTop .TopLeft p.Cat{margin-bottom:6px;background:#5f5f5f;color:#fff;text-align:center;letter-spacing:2px;}
 #PostSec .PostBlock .PostTop .TopLeft p.Date{margin-bottom:6px;font-size:28px;text-align:center;font-family:'HiraginoUDSansStd W6';color:#6c6362;}
-#PostSec .PostBlock .PostThumb{position:relative;width:100%;height:auto;margin:0 auto 20px;text-align:center;}
+#PostSec .PostBlock .PostThumb{position:relative;width:100%;height:auto;margin:0 auto 40px;text-align:center;}
 #PostSec .PostBlock .PostThumb img{width:auto;max-width:984px;height:auto;max-width:700px;}
 #PostSec .PostBlock .PostDetail{position:relative;}
 #PostSec .PostBlock .PostDetail h2{margin-bottom:20px;font-size:30px;color:#3ea4da;border-bottom:4px solid #3ea4da;line-height:1.4;letter-spacing:3px;}
 #PostSec .PostBlock .PostDetail h3{margin-bottom:20px;font-size:24px;color:#3ea4da;line-height:1.4;letter-spacing:3px;}
 #PostSec .PostBlock .PostDetail h3:before{content:"■";font-size:28px;}
-#PostSec .PostBlock .PostDetail p{font-size:18px;letter-spacing:1px;color:#727272;}
+#PostSec .PostBlock .PostDetail p{margin-bottom:40px;font-size:18px;letter-spacing:1px;color:#727272;}
 #PostSec .PostBlock .PostDetail a{color:#3ea4da;}
 #PostSec .PostBlock .PostDetail img{width:100%;max-width:800px;height:auto;}
-#PostSec .PostBlock .PostDetail p.MidNote{margin-bottom:5%;}
-#PostSec .PostBlock .PostDetail p.EndNote{margin-bottom:10%;}
+#PostSec .PostBlock .PostDetail p.MidNote{margin-bottom:60px;}
+#PostSec .PostBlock .PostDetail p.EndNote{margin-bottom:80px;}
 #PostSec .PostBlock .PostDetail p.ImgR{float:right;width:38%;height:auto;margin:0 0 2% 2%;text-align:center;}
 #PostSec .PostBlock .PostDetail p.ImgL{float:left;width:38%;height:auto;margin:0 2% 2% 0;text-align:center;}
 #PostSec .PostBlock .PostDetail p.ImgC{width:100%;height:auto;margin:0 auto 2%;text-align:center;}

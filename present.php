@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
 <meta name="viewport" content="width=device-width,user-scalable=no" />
-<title>サプライズの島|株式会社いないいないばぁ</title>
+<title>プレゼントの島|株式会社いないいないばぁ</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
 <link rel="shortcut icon" href="common/img/favicon.ico" />
@@ -18,7 +18,7 @@
 <script src="common/js/respond.min.js"></script>
 <![endif]-->
 <!--[if IE 6]><script src="common/js/minmax.js"></script><![endif]-->
-<meta property="og:title" content="" />
+<meta property="og:title" content="プレゼントの島|株式会社いないいないばぁ" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
 <meta property="og:url" content="http://www.i-i-b.jp/present.php" />
@@ -30,16 +30,8 @@
 <body class="present">
 
 <div id="wrapper"><!-- wrapper -->
-<header>
-<div class="Menu"><img src="common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<ul>
-<li><img src="common/img/header/btn-fb.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-tw.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-g.png" width="27" height="27" alt=""/></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include 'sns.php'; ?>
+<?php @include 'header.php'; ?>
 
 <div id="present-wrap"><!-- present-wrap -->
 
@@ -96,36 +88,17 @@
 <div class="animal02"><img src="common/img/present/animal-02.png" width="68" height="50" alt=""/></div>
 <div class="bird01"><img src="common/img/present/bird-01.png" width="48" height="46" alt=""/></div>
 
-<div class="btn01 Hv"><a href="#"><img src="common/img/present/btn-01.png" width="125" height="213" alt=""/></a></div>
-<div class="btn02 Hv"><a href="#"><img src="common/img/present/btn-02.png" width="125" height="219" alt=""/></a></div>
-<div class="btn03 Hv"><a href="#"><img src="common/img/present/btn-03.png" width="125" height="218" alt=""/></a></div>
+<div class="btn01 Hv"><a href="http://www.amazon.co.jp/registry/wishlist/1EF5JVT37NPSM" target="_blank"><img src="common/img/present/btn-01.png" width="125" height="213" alt="入金してみる"/></a></div>
+<div class="btn02 Hv"><a href="present/gift.php"><img src="common/img/present/btn-02.png" width="125" height="219" alt="無料プレゼント"/></a></div>
+<div class="btn03 Hv"><a href="present/magazine.php"><img src="common/img/present/btn-03.png" width="125" height="218" alt="無料メルマガ"/></a></div>
 
 </div>
 </section>
 
 
 </div><!-- /present-wrap -->
+<?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
-
-
-<footer>
-<ul>
-<li><a href="/">HOME</a></li>
-<li><a href="#">お知らせ</a></li>
-<li><a href="#">会社概要</a></li>
-<li><a href="#">事業内容</a></li>
-<li><a href="#">メンバー紹介</a></li>
-<li><a href="/contact/">お問合わせ</a></li>
-<li><a href="/recruit/">採用情報</a></li>
-</ul>
-<ul class="second">
-<li><a href="/legal.php">特定商取引法に基づく表記について</a></li>
-<li><a href="/privacy.php">プライバシーポリシー</a></li>
-</ul>
-</ul>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<p>&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> IIB All Rights Reserved.</div></p>
-</footer>
 
 
 

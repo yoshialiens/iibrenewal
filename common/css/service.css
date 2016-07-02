@@ -1,0 +1,57 @@
+/* #ContBlock */
+#ContBlock {position:relative; background:rgba(255,255,255,0.8); margin:40px auto; padding:30px; width:900px; height:auto;color:#303131;}
+#ContBlock .Title { position:relative; top:-130px; text-align:center;}
+#ContBlock .Title h2{margin-bottom:4px;}
+#ContBlock .Title p {font-size:18px;color:#4e4e4e;}
+#ContBlock h3{margin:0 auto 60px;color:#4496ab;font-size:30px;text-align:center;letter-spacing:2px;}
+#ContBlock h3 img{width:auto;max-width:100%;height:auto;}
+#ContBlock h4{width:800px;height:auto;margin:0 auto 40px;padding:20px 30px;color:#fff;background:#f2b93d;font-size:26px;text-align:center;letter-spacing:6px;box-sizing:border-box;-webkit-box-sizing:border-box;border-radius:4px;-webkit-border-radius:4px;}
+#ContBlock .Block{margin:0 auto 50px;padding-bottom:60px;border-bottom:1px dashed #827f7f;}
+#ContBlock .BlockTop{margin-top:-90px;}
+#ContBlock .Block .Inner{}
+#ContBlock .Block .Inner .Box{position:relative;width:800px;height:auto;margin:0 auto;letter-spacing:2px;}
+#ContBlock .Block .Inner .Box .BoxLeft{float:left;width:500px;height:auto;margin:0 20px 0 0;}
+#ContBlock .Block .Inner .Box .BoxLeft p{font-size:16px;margin:0 auto 30px;}
+#ContBlock .Block .Inner .Box .BoxRight{float:right;width:280px;height:auto;margin:0 auto;}
+#ContBlock .Block .Inner .Box .BoxRight p{text-align:center;}
+#ContBlock .Block .Inner .Box .BoxRight p.Img{}
+#ContBlock .Block .Inner .Box .BoxRight p.Img img{width:auto;max-width:100%;height:auto;}
+
+#ContBlock .Block .Inner .Box .BoxInner{position:relative;width:100%;height:auto;margin:0 auto 40px;}
+#ContBlock .Block .Inner .Box .BoxInner p{font-size:16px;margin:0 auto 30px;}
+#ContBlock .Block .Inner .Box .BoxInner p.BoxImg{float:right;width:220px;margin:0 0 10px 0;text-align:right;}
+#ContBlock .Block .Inner .Box .BoxInner p.BoxImg img{}
+#ContBlock .Block .Inner .Box .SubBox{width:100%;height:auto;margin-bottom:120px;padding:15px 20px 20px;background:#ededec;box-sizing:border-box;-webkit-box-sizing:border-box;}
+#ContBlock .Block .Inner .Box .SubBox p.SubTitle{text-align:center;font-size:26px;color:#e53c7d;}
+#ContBlock .Block .Inner .Box .SubBox .SubLeft{float:left;width:80px;margin-right:10px;}
+#ContBlock .Block .Inner .Box .SubBox .SubLeft img{}
+#ContBlock .Block .Inner .Box .SubBox .SubRight{float:right;width:650px;height:auto;background:#fff;border-radius:4px;-webkit-border-radius:4px;}
+#ContBlock .Block .Inner .Box .SubBox .SubRight ul{padding:10px;}
+#ContBlock .Block .Inner .Box .SubBox .SubRight ul li{letter-spacing:1px;}
+#ContBlock .Block .Inner .Box02{margin-top:-120px;}
+#ContBlock .Block .Inner .Box .SubBox.Sub02{margin-top:-160px; padding:30px 20px;}
+#ContBlock .Block .Inner .Box .SubBox.Sub02 .SubRight{margin-top:-88px;}
+#ContBlock .Block .Inner .Box .SubBox.Sub02 .SubRight ul{padding:20px 10px;}
+
+.Btn{margin:0 auto 40px;text-align:center;}
+.Btn a{position:relative;}
+.Btn .BtnImg{position:absolute;left:-30px;top:-30px;}
+.Btn .btn{background:#ee7f8d;position:relative;border:none;font-family:inherit;font-size:30px;color:#fff;cursor:pointer;padding:6px 20px;display:inline-block;letter-spacing:1px;outline:none;-webkit-transition:all 0.3s; -moz-transition:all 0.3s;transition:all 0.3s;}
+.Btn .btn:after{content:'';position:relative;	z-index:-1;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.Btn .btn-lunch{width:530px;height:50px;margin:0 auto;background:#eb697b;color:#fff;box-shadow:0 6px #d25c6b;-webkit-transition:none;-moz-transition:none;transition:none;}
+.Btn .btn-act{border-radius:5px;}
+.Btn .btn-act:hover{top:6px;box-shadow:0 0px #d25c6b;}
+.Btn .btn-act:active{box-shadow:0 0 #d25c6b;}
+.ServiceBtn{margin:-60px auto 80px;}
+#ContBlock .IntroFooter{}
+#ContBlock .IntroFooter .Inner{}
+#ContBlock .IntroFooter .NextTitle{}
+#ContBlock .IntroFooter .NextTitle h3{width:410px;height:126px;margin:0 auto 20px;padding:24px 320px 0 170px;background:url(../img/member/common/footer-title.png)no-repeat top center;text-align:left;}
+#ContBlock .IntroFooter ul.Menu{width:840px;height:auto;margin:0 auto;}
+#ContBlock .IntroFooter ul.Menu li{width:115px;height:auto;float:left;margin:0 30px 20px 0;text-align:center;}
+#ContBlock .IntroFooter ul.Menu li.Last{margin-right:0;}
+#ContBlock .IntroFooter ul.Menu li a{}
+#ContBlock .IntroFooter ul.Menu li a p{font-size:18px;color:#46a5bc;}
+#ContBlock .IntroFooter ul.Menu li a img{}
+
+

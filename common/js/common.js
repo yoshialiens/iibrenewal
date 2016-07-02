@@ -38,9 +38,9 @@ $(document).ready(function(){
   //click about
   $("#AboutBlock .btn01").click(function(){
     $('#AboutHvBlock').css("display","block"); //クリック時
-    $("#AboutHvBlock").css({opacity:'0',"margin":'546px 0 0 600px'});
+    $("#AboutHvBlock").css({opacity:'0',"margin":'650px 0 0 600px'});
     setTimeout(function(){
-		$("#AboutHvBlock").stop().animate({opacity:'1',"margin":'546px 0 0 86px'},1200);
+		$("#AboutHvBlock").stop().animate({opacity:'1',"margin":'650px 0 0 86px'},1200);
 	},0);
   });
 
@@ -120,3 +120,34 @@ $(document).ready(function(){
 	},800);
   });
 });
+
+
+
+
+// <!-- サイドバー開閉 -->
+$(function(){
+  $('header .Menu img').click(function(e){
+    $('body').toggleClass('MenuOpen');
+  });
+  $('.close-button').click(function(e){
+    $('body').removeClass('MenuOpen');
+  });
+});
+// <!-- /サイドバー開閉 -->
+
+// スクロール幅
+$(window).bind("load", function(){
+
+  // URLにhogehogeが含まれていたら実行
+  if(document.URL.match("/service/index.php")) {
+  }
+  else{}
+});
+
+
+// $(function(){
+//    $(window).scroll(function(){ // スクロール毎にイベントが発火します。
+//       var scr_count = $(document).scrollTop();
+//       $('#ToggleMenu').css('top', scr_count);
+//    })
+// })

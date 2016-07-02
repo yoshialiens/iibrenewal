@@ -1,0 +1,52 @@
+/* #ContBlock */
+#ContBlock {position:relative; background:rgba(255,255,255,0.8); margin:40px auto; padding:30px; width:900px; height:auto;color:#303131;}
+#ContBlock .Title { position:relative; top:-130px; text-align:center;}
+#ContBlock .Title h2{margin-bottom:4px;}
+#ContBlock .Title p {font-size:18px;color:#4e4e4e;}
+#ContBlock h3{text-align:center;}
+#ContBlock h3.Top{margin:0 auto 60px;}
+#ContBlock h3.Bnr{width:100%;height:100px;margin:0 auto 60px;padding-top:10px;color:#4496ab;font-size:30px;text-align:center;letter-spacing:2px;background:url(../img/about/history/h3.png)no-repeat top center;}
+#ContBlock h3 img{width:auto;max-width:100%;height:auto;}
+#ContBlock h4{width:100%;height:90px;margin:0 auto 40px;padding-top:20px;color:#fff;background:url(../img/about/history/h4.png)no-repeat center top; font-size:26px;text-align:center;letter-spacing:6px;/*box-sizing:border-box;-webkit-box-sizing:border-box;*/}
+#ContBlock h4.First{margin:80px auto 40px;}
+#ContBlock .Block{margin:0 auto 50px;padding-bottom:60px;border-bottom:1px dashed #827f7f;}
+#ContBlock .Block .Inner .Box{position:relative;width:860px;height:auto;margin:0 auto;letter-spacing:2px;}
+#ContBlock .Block .Inner .Btm40{margin:0 auto 40px;}
+#ContBlock .Block .Inner .Btm60{margin:0 auto 60px;}
+#ContBlock .Block .Inner .Btm80{margin:0 auto 80px;}
+#ContBlock .Block .Inner .Box p{font-size:20px;margin:0 auto 40px;}
+#ContBlock .Block .Inner .Box .ListTitle{margin:0 auto 40px;padding-top:40px;font-size:30px;font-weight:bold;letter-spacing:6px;line-height:1.4;text-align:center;}
+#ContBlock .Block .Inner .Box ul.ListBox{width:800px;height:auto;margin:0 auto 80px;}
+#ContBlock .Block .Inner .Box ul.ListBox li{width:760px;height:auto;margin:0 auto 30px;padding:20px;background:#fff;overflow:hidden;}
+#ContBlock .Block .Inner .Box ul.ListBox li .ImgR{float:right;max-width:50%;}
+#ContBlock .Block .Inner .Box ul.ListBox li .ImgR img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box ul.ListBox li .ImgL{float:left;max-width:50%;}
+#ContBlock .Block .Inner .Box ul.ListBox li .ImgL img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box ul.ListBox li .TxtL{float:left;width:50%;margin:30px auto 0;color:#1dada3;line-height:1.6;}
+#ContBlock .Block .Inner .Box ul.ListBox li .TxtR{float:right;width:50%;margin:30px auto 0;color:#1dada3;line-height:1.6;text-align:left;}
+#ContBlock .Block .Inner .BgGray{background:#f4f4f5;}
+#ContBlock .Block .Inner .ListBlock{margin:-160px auto 40px;}
+
+#ContBlock .Block .Inner .Box .BoxInner{padding:40px 30px;}
+#ContBlock .Block .Inner .Box .BoxInner .BtnTitle{font-size:26px;color:#e53c7d;letter-spacing:4px;}
+
+#ContBlock .IntroFooter{}
+#ContBlock .IntroFooter .Inner{}
+#ContBlock .IntroFooter .NextTitle{}
+#ContBlock .IntroFooter .NextTitle h3{width:410px;height:126px;margin:0 auto 20px;padding:24px 320px 0 170px;color:#4496ab;font-size:30px;text-align:center;letter-spacing:2px;background:url(../img/member/common/footer-title.png)no-repeat top center;text-align:left;}
+#ContBlock .IntroFooter ul.Menu{width:840px;height:auto;margin:0 auto;}
+#ContBlock .IntroFooter ul.Menu li{width:115px;height:auto;float:left;margin:0 30px 20px 0;text-align:center;}
+#ContBlock .IntroFooter ul.Menu li.Last{margin-right:0;}
+#ContBlock .IntroFooter ul.Menu li a{}
+#ContBlock .IntroFooter ul.Menu li a p{font-size:18px;color:#46a5bc;}
+#ContBlock .IntroFooter ul.Menu li a img{}
+
+.Btn{margin:0 auto 40px;text-align:center;}
+.Btn a{position:relative;}
+.Btn .BtnImg{position:absolute;left:-30px;top:-30px;}
+.Btn .btn{background:#ee7f8d;position:relative;border:none;font-family:inherit;font-size:30px;color:#fff;cursor:pointer;padding:6px 20px;display:inline-block;letter-spacing:4px;outline:none;-webkit-transition:all 0.3s; -moz-transition:all 0.3s;transition:all 0.3s;}
+.Btn .btn:after{content:'';position:relative;	z-index:-1;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.Btn .btn-lunch{width:530px;height:50px;margin:0 auto;background:#eb697b;color:#fff;box-shadow:0 6px #d25c6b;-webkit-transition:none;-moz-transition:none;transition:none;}
+.Btn .btn-act{border-radius:5px;}
+.Btn .btn-act:hover{top:6px;box-shadow:0 0px #d25c6b;}
+.Btn .btn-act:active{box-shadow:0 0 #d25c6b;}

@@ -1,24 +1,71 @@
+<?php
+  require_once dirname(__FILE__) . '/admin/scripts/model/DivisionModel.class.php';
+  require_once dirname(__FILE__) . '/admin/scripts/model/CategoryModel.class.php';
+  require_once dirname(__FILE__) . '/admin/scripts/model/ItemModel.class.php';
+  require_once dirname(__FILE__) . '/admin/scripts/model/AuthorModel.class.php';
+  require_once dirname(__FILE__) . '/admin/scripts/UploadLib.class.php';
+
+  $division_model = new DivisionModel();
+  $category_model = new CategoryModel();
+  $author_model = new AuthorModel();
+  $item_model = new ItemModel();
+
+  $division_list = array(1);//ブログ
+  $division_all = array();
+  foreach($division_list as $id){
+      $division_all[$id] = $division_model->getDivision($id);
+  }
+  foreach($division_all as $k => $v){
+    $category_all = $category_model->getCategoryAllByDivisionId($v['division_id']);
+    $item_all = $item_model->getItemAllByDivisionId($v['division_id']);
+    $division_all[$k]['category_all'] = array_slice($category_all, 0, 4);
+  }
+  $PAGE_ITEM_COUNT = 3;//1ページに表示する数
+  // $filter = $session->get('filter');
+  $category_id2 = (int)@$filter['category_id'];
+  //ページ番号
+  $page_num = @$_GET['p'];
+  $item_count = $item_model->getItemCountByFilter($category_id);
+  //最大ページ数
+  $page_max = ceil($item_count / $PAGE_ITEM_COUNT);
+  $item_all2 = $item_model->getItemAllByFilter($category_id2, $page_num, $PAGE_ITEM_COUNT);
+  foreach($item_all2 as &$v2)
+  {
+    $v2['division_name'] = htmlspecialchars($v2['division_name'], ENT_QUOTES, 'UTF-8');
+    $v2['category_name'] = htmlspecialchars($v2['category_name'], ENT_QUOTES, 'UTF-8');
+    $v2['name'] = htmlspecialchars($v2['name'], ENT_QUOTES, 'UTF-8');
+    unset($v2);
+  }
+  //ソーシャルボタン用
+  // $server_name = $_SERVER['SERVER_NAME'];
+  // $social_url = urlencode("http://{$server_name}/rticle.php");
+  // $url = "http://{$server_name}/article.php";
+?>
+
 <!doctype html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
 <meta name="viewport" content="width=device-width,user-scalable=no" />
-<title>株式会社いないいないばぁ</title>
+<title>株式会社いないいないばぁ|サプライズマーケティング会社</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
 <link rel="shortcut icon" href="common/img/favicon.ico" />
+<!-- <link rel="stylesheet" href="common/css/menu_sideslide.css" type="text/css" media="all"> -->
 <link rel="stylesheet" href="common/css/basic.css" type="text/css" media="all">
 <link rel="stylesheet" href="common/css/index.css" type="text/css" media="all">
 <link rel="stylesheet" href="common/css/animate.css" type="text/css" media="all">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="common/js/common.js"></script>
+<!-- <script src="common/js/classie.js"></script> -->
+<!-- <script src="common/js/main.js"></script> -->
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="common/js/respond.min.js"></script>
 <![endif]-->
 <!--[if IE 6]><script src="common/js/minmax.js"></script><![endif]-->
-<meta property="og:title" content="" />
+<meta property="og:title" content="株式会社いないいないばぁ|サプライズマーケティング会社" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
 <meta property="og:url" content="http://www.i-i-b.jp/" />
@@ -28,18 +75,9 @@
 </head>
 
 <body class="index">
-
 <div id="wrapper"><!-- wrapper -->
-<header>
-<div class="Menu"><img src="common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<ul>
-<li><img src="common/img/header/btn-fb.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-tw.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-g.png" width="27" height="27" alt=""/></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include 'sns.php'; ?>
+<?php @include 'header.php'; ?>
 
 <div id="index-wrap"><!-- index-wrap -->
 
@@ -175,10 +213,12 @@
 <div class="NewsBoard">
 <h3><img src="common/img/index/news/hv/h3.png" width="279" height="27" alt="お知らせとか新着とか"></h3>
 <ul>
+<?php foreach($item_all2 as $v2): ?>
+<li><div class="L"><p class="cat"><?php echo $v2['category_name']; ?></p><p class="date"><?php echo $v2['posted_date']; ?></p></div><div class="R"><p class="Hv"><a href="post.php?item_id=<?php echo $v2['item_id']; ?>"><?php echo $v2['name']; ?></a></p></div></li>
+<?php endforeach; ?>
+<!-- <li><div class="L"><p class="cat">ニュース</p><p class="date">2016.06.01.</p></div><div class="R"><p class="Hv"><a href="#">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</a></p></div></li>
 <li><div class="L"><p class="cat">ニュース</p><p class="date">2016.06.01.</p></div><div class="R"><p class="Hv"><a href="#">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</a></p></div></li>
-<li><div class="L"><p class="cat">ニュース</p><p class="date">2016.06.01.</p></div><div class="R"><p class="Hv"><a href="#">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</a></p></div></li>
-<li><div class="L"><p class="cat">ニュース</p><p class="date">2016.06.01.</p></div><div class="R"><p class="Hv"><a href="#">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</a></p></div></li>
-</ul>
+ --></ul>
 </div>
 <div class="monster01"><img src="common/img/index/news/hv/monster-01.png" width="215" height="204" alt=""></div>
 </div>
@@ -190,11 +230,11 @@
 <div class="menu">
 <ul>
 <li class="plane"><img src="common/img/index/about/hv/plane-01.png" width="211" height="77" alt="飛行機"></li>
-<li class="menu01"><a href="about.php"><img src="common/img/index/about/hv/btn-about01.png" width="116" height="63" alt="会社概要"></a></li>
-<li class="menu02 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about02.png" width="98" height="59" alt="歴史"></a></li>
-<li class="menu03 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about03.png" width="98" height="59" alt="クレド"></a></li>
-<li class="menu04 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about04.png" width="117" height="69" alt="代表挨拶"></a></li>
-<li class="menu05 Hv"><a href="about.php"><img src="common/img/index/about/hv/btn-about05.png" width="117" height="70" alt="採用情報"></a></li>
+<li class="menu01"><a href="about/company.php"><img src="common/img/index/about/hv/btn-about01.png" width="116" height="63" alt="会社概要"></a></li>
+<li class="menu02 Hv"><a href="about/history.php"><img src="common/img/index/about/hv/btn-about02.png" width="98" height="59" alt="歴史"></a></li>
+<li class="menu03 Hv"><a href="about/mission.php"><img src="common/img/index/about/hv/btn-about03.png" width="98" height="59" alt="クレド"></a></li>
+<li class="menu04 Hv"><a href="about/message.php"><img src="common/img/index/about/hv/btn-about04.png" width="117" height="69" alt="代表挨拶"></a></li>
+<li class="menu05 Hv"><a href="recruit"><img src="common/img/index/about/hv/btn-about05.png" width="117" height="70" alt="採用情報"></a></li>
 </ul>
 </div>
 </div>
@@ -204,12 +244,12 @@
 <div id="ServiceHvBlock">
 <div class="balloon">
 <ul>
-<li class="balloon01"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon01.png" width="94" height="216" alt="サプマケ式コンサルティング"></a></li>
-<li class="balloon02"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon02.png" width="94" height="217" alt="サプマケ式プロモーション"></a></li>
-<li class="balloon03"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon03.png" width="94" height="217" alt="ボードゲーム制作"></a></li>
-<li class="balloon04"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon04.png" width="94" height="212" alt="社内サプライズ"></a></li>
-<li class="balloon05"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon05.png" width="94" height="213" alt="サプマケ式動画制作"></a></li>
-<li class="balloon06"><a href="service.php"><img src="common/img/index/service/hv/btn-balloon06.png" width="94" height="216" alt="サプマケ式WEB制作"></a></li>
+<li class="balloon01"><a href="service/#Consulting"><img src="common/img/index/service/hv/btn-balloon01.png" width="94" height="216" alt="コンサルティング"></a></li>
+<li class="balloon02"><a href="service/#Promotion"><img src="common/img/index/service/hv/btn-balloon02.png" width="94" height="217" alt="プロモーション"></a></li>
+<li class="balloon03"><a href="service/#Boardgame"><img src="common/img/index/service/hv/btn-balloon03.png" width="94" height="217" alt="ボードゲーム制作"></a></li>
+<li class="balloon04"><a href="service/#Company"><img src="common/img/index/service/hv/btn-balloon04.png" width="94" height="212" alt="社内サプライズ"></a></li>
+<li class="balloon05"><a href="service/#Movie"><img src="common/img/index/service/hv/btn-balloon05.png" width="94" height="213" alt="動画制作"></a></li>
+<li class="balloon06"><a href="service/#Web"><img src="common/img/index/service/hv/btn-balloon06.png" width="94" height="216" alt="ウェブ制作"></a></li>
 </ul>
 </div>
 </div>
@@ -231,9 +271,9 @@
 <div id="SurpriseHvBlock">
 <div class="menu">
 <ul>
-<li class="btn01 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise01.png" width="200" height="67" alt="サプライズマーケティングとは？"></a></li>
-<li class="btn02 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise02.png" width="156" height="50" alt="サプマケ研究所"></a></li>
-<li class="btn03 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise03.png" width="200" height="67" alt="あなたのサプライズ魅力度チェック"></a></li>
+<li class="btn01 Hv"><a href="surprise/"><img src="common/img/index/surprise/hv/btn-surprise01.png" width="200" height="67" alt="サプライズマーケティングとは？"></a></li>
+<li class="btn02 Hv"><a href="category.php?category_id=3"><img src="common/img/index/surprise/hv/btn-surprise02.png" width="156" height="50" alt="サプマケ研究所"></a></li>
+<!-- <li class="btn03 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise03.png" width="200" height="67" alt="あなたのサプライズ魅力度チェック"></a></li> -->
 </ul>
 </div>
 </div>
@@ -243,38 +283,17 @@
 <div id="PresentHvBlock">
 <div class="menu">
 <ul>
-<li class="btn01 Hv"><a href="present.php"><img src="common/img/index/present/hv/btn-present01.png" width="125" height="125" alt="入金してみる"></a></li>
-<li class="btn02 Hv"><a href="present.php"><img src="common/img/index/present/hv/btn-present02.png" width="125" height="125" alt="無料メルマガ"></a></li>
-<li class="btn03 Hv"><a href="present.php"><img src="common/img/index/present/hv/btn-present03.png" width="125" height="125" alt="無料プレゼント"></a></li>
+<li class="btn01 Hv"><a href="http://www.amazon.co.jp/registry/wishlist/1EF5JVT37NPSM" target="_blank"><img src="common/img/index/present/hv/btn-present01.png" width="125" height="125" alt="入金してみる"></a></li>
+<li class="btn02 Hv"><a href="present/magazine.php"><img src="common/img/index/present/hv/btn-present02.png" width="125" height="125" alt="無料メルマガ"></a></li>
+<li class="btn03 Hv"><a href="present/gift.php"><img src="common/img/index/present/hv/btn-present03.png" width="125" height="125" alt="無料プレゼント"></a></li>
 </ul>
 </div>
 </div>
 </section>
 
 </div><!-- /index-wrap -->
+<?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
-
-
-<footer>
-<ul>
-<li><a href="/">HOME</a></li>
-<li><a href="#">お知らせ</a></li>
-<li><a href="#">会社概要</a></li>
-<li><a href="#">事業内容</a></li>
-<li><a href="#">メンバー紹介</a></li>
-<li><a href="/contact/">お問合わせ</a></li>
-<li><a href="/recruit/">採用情報</a></li>
-</ul>
-<ul class="second">
-<li><a href="/legal.php">特定商取引法に基づく表記について</a></li>
-<li><a href="/privacy.php">プライバシーポリシー</a></li>
-</ul>
-</ul>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<p>&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> IIB All Rights Reserved.</div></p>
-</footer>
-
-
 
 
 </body>

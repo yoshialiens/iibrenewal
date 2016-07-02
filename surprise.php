@@ -18,7 +18,7 @@
 <script src="common/js/respond.min.js"></script>
 <![endif]-->
 <!--[if IE 6]><script src="common/js/minmax.js"></script><![endif]-->
-<meta property="og:title" content="" />
+<meta property="og:title" content="サプライズの島|株式会社いないいないばぁ" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
 <meta property="og:url" content="http://www.i-i-b.jp/surprise.php" />
@@ -30,16 +30,8 @@
 <body class="surprise">
 
 <div id="wrapper"><!-- wrapper -->
-<header>
-<div class="Menu"><img src="common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<ul>
-<li><img src="common/img/header/btn-fb.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-tw.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-g.png" width="27" height="27" alt=""/></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include 'sns.php'; ?>
+<?php @include 'header.php'; ?>
 
 <div id="surprise-wrap"><!-- surprise-wrap -->
 
@@ -75,35 +67,16 @@
 <div class="people04"><img src="common/img/surprise/people-04.png" width="64" height="39" alt=""/></div>
 <div class="people05"><img src="common/img/surprise/people-05.png" width="29" height="47" alt=""/></div>
 <div class="people06"><img src="common/img/surprise/people-06.png" width="52" height="28" alt=""/></div>
-<div class="board01"><div class="BoardBlock Hv"><h3>あなたのサプライズ魅力度チェック</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board02"><div class="BoardBlock Hv"><h3>サプマケ研究所</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<!-- <div class="board01"><div class="BoardBlock Hv"><h3>あなたのサプライズ魅力度チェック</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div> -->
+<div class="board02"><div class="BoardBlock Hv"><h3>サプマケ研究所</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="article.php"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
 <div class="board03"><div class="BoardBlock Hv"><h3>サプライズマーケティングとは</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
 </div>
 </section>
 
 
 </div><!-- /surprise-wrap -->
+<?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
-
-
-<footer>
-<ul>
-<li><a href="/">HOME</a></li>
-<li><a href="#">お知らせ</a></li>
-<li><a href="#">会社概要</a></li>
-<li><a href="#">事業内容</a></li>
-<li><a href="#">メンバー紹介</a></li>
-<li><a href="/contact/">お問合わせ</a></li>
-<li><a href="/recruit/">採用情報</a></li>
-</ul>
-<ul class="second">
-<li><a href="/legal.php">特定商取引法に基づく表記について</a></li>
-<li><a href="/privacy.php">プライバシーポリシー</a></li>
-</ul>
-</ul>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<p>&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> IIB All Rights Reserved.</div></p>
-</footer>
 
 
 

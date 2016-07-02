@@ -1,0 +1,45 @@
+/* #ContBlock */
+#ContBlock {position:relative; background:rgba(255,255,255,0.8); margin:40px auto; padding:30px; width:900px; height:auto;color:#303131;}
+#ContBlock .Title { position:relative; top:-130px; text-align:center;}
+#ContBlock .Title h2{margin-bottom:4px;}
+#ContBlock .Title p {font-size:18px;color:#4e4e4e;}
+#ContBlock h3{width:100%;height:100px;margin:0 auto 40px;padding-top:10px;color:#4496ab;font-size:30px;text-align:center;letter-spacing:2px;background:url(../img/about/history/h3.png)no-repeat top center;}
+#ContBlock h3 img{width:auto;max-width:100%;height:auto;}
+#ContBlock h4{width:100%;height:90px;margin:0 auto 60px;padding-top:20px;color:#fff;background:url(../img/about/history/h4.png)no-repeat center top; font-size:26px;text-align:center;letter-spacing:6px;/*box-sizing:border-box;-webkit-box-sizing:border-box;*/}
+#ContBlock h4.First{margin:80px auto 40px;}
+#ContBlock .Block{margin:0 auto 50px;padding-bottom:60px;border-bottom:1px dashed #827f7f;}
+#ContBlock .BlockTop{margin-top:-30px;}
+#ContBlock .Block .Inner .Box{position:relative;width:800px;height:auto;margin:0 auto 160px;letter-spacing:2px;}
+#ContBlock .Block .Inner .Box .Img{margin:0 auto 40px;text-align:center;}
+#ContBlock .Block .Inner .Box .SubTitle{width:100%;height:auto;margin:80px auto 40px;text-align:center;font-weight:bold;font-size:26px;color:#4496ab;}
+#ContBlock .Block .Inner .Box .GiftTxt{margin:0 auto 40px;text-align:center;font-size:20px;}
+#ContBlock .Block .Inner .Box .GiftBox{padding:40px 20px;background:#f3f3f3;}
+
+#ContBlock .Block .Inner .Box .GiftBox dl.Form { overflow:hidden; margin-bottom:2%;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form.Last{margin-bottom:6%;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form dt{font-weight:bold;float:left;width:24%;text-align:right;line-height:2.8;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form dd{float:right;width:72%;text-align:left;color:#4e4e4e;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form dd input{height:14px;font-size:14px;line-height:1;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form dd input[type="text"]{width:95%;padding:2%;border:solid 2px #eee;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form dd.Name input[type="text"]{width:25%;}
+#ContBlock .Block .Inner .Box .GiftBox dl.Form dd input[type="radio"]{width:auto;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail{margin:80px auto 0;text-align:center;font-family:Meiryo, メイリオ, Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail input{display:none;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail label{background:#ee7f8d;position:relative;border:none;font-family:inherit;font-size:30px;color:#fff;cursor:pointer;padding:3px 20px;display:inline-block;letter-spacing:4px;outline:none;-webkit-transition:all 0.3s; -moz-transition:all 0.3s;transition:all 0.3s;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail label:after{content:'';position:relative;	z-index:-1;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail label.btn-lunch{width:530px;height:50px;margin:0 auto;background:#eb697b;color:#fff;box-shadow:0 6px #d25c6b;-webkit-transition:none;-moz-transition:none;transition:none;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail label.btn-act{border-radius:5px;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail label.btn-act:hover{top:6px;box-shadow:0 0px #d25c6b;cursor:pointer;}
+#ContBlock .Block .Inner .Box .GiftBox #btn-sendMail label.btn-act:active{box-shadow:0 0 #d25c6b;}
+
+
+#ContBlock .IntroFooter{}
+#ContBlock .IntroFooter .Inner{}
+#ContBlock .IntroFooter .NextTitle{}
+#ContBlock .IntroFooter .NextTitle h3{width:410px;height:126px;margin:0 auto 20px;padding:24px 320px 0 170px;background:url(../img/member/common/footer-title.png)no-repeat top center;text-align:left;}
+#ContBlock .IntroFooter ul.Menu{width:840px;height:auto;margin:0 auto;}
+#ContBlock .IntroFooter ul.Menu li{width:115px;height:auto;float:left;margin:0 30px 20px 0;text-align:center;}
+#ContBlock .IntroFooter ul.Menu li.Last{margin-right:0;}
+#ContBlock .IntroFooter ul.Menu li a{}
+#ContBlock .IntroFooter ul.Menu li a p{font-size:18px;color:#46a5bc;}
+#ContBlock .IntroFooter ul.Menu li a img{}

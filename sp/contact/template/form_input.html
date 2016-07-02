@@ -1,0 +1,42 @@
+<dl>
+<dt>お名前<span class="hissu">※</span></dt>
+<dd><input type="text" name="f_name">
+<!--mess(hissu,f_name)--></dd>
+</dl>
+
+<dl>
+<dt>E-Mail<span class="hissu">※</span></dt>
+<dd><input type="text" name="f_mail">
+<!--mess(hissu,f_mail)--><!--mess(email,f_mail)--></dd>
+</dl>
+
+<dl>
+<dt>E-Mail（確認用）<span class="hissu">※</span></dt>
+<dd><input type="text" name="f_mail2"></dd>
+</dl>
+
+<dl>
+<dt>ご依頼のジャンル<span class="hissu">※</span></dt>
+<dd>
+<select name="f_title" value="">
+<option value="コンサルティングのご依頼">コンサルティングのご依頼</option>
+<option value="動画制作のご依頼">動画制作のご依頼</option>
+<option value="リピート通販のご依頼">リピート通販のご依頼</option>
+<option value="ボードゲーム制作のご依頼">ボードゲーム制作のご依頼</option>
+<option value="ホームページ制作のご依頼">ホームページ制作のご依頼</option>
+<option value="アプリケーション制作のご依頼">アプリケーション制作のご依頼</option>
+<option value="取材のご依頼">取材のご依頼</option>
+<option value="求人のご応募">求人のご応募</option>
+<option value="お問い合わせ">お問い合わせ</option>
+<option value="IIBへのサプライズ">IIBへのサプライズ</option>
+<option value="その他">その他</option>
+</select>
+<!--mess(hissu,f_title)--></dd>
+</dl>
+
+<dl>
+<dt>ご依頼詳細<span class="hissu">※</span></dt>
+<dd><textarea  name="f_text"></textarea><!--mess(hissu,f_text)--></dd>
+</dl>
+
+<div id="btn_send"><input id="send" type="button" onclick="submit();"><label class="btn animation opacity" for="send">入力内容を確認</label></div>

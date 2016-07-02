@@ -82,16 +82,8 @@
 <body class="article">
 
 <div id="wrapper"><!-- wrapper -->
-<header>
-<div class="Menu"><img src="common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<ul>
-<li><img src="common/img/header/btn-fb.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-tw.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-g.png" width="27" height="27" alt=""/></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include 'sns.php'; ?>
+<?php @include 'header.php'; ?>
 
 <div id="article-wrap"><!-- index-wrap -->
 
@@ -162,27 +154,8 @@
 
 
 </div><!-- /article-wrap -->
+<?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
-
-
-<footer>
-<ul>
-<li><a href="/">HOME</a></li>
-<li><a href="#">お知らせ</a></li>
-<li><a href="#">会社概要</a></li>
-<li><a href="#">事業内容</a></li>
-<li><a href="#">メンバー紹介</a></li>
-<li><a href="/contact/">お問合わせ</a></li>
-<li><a href="/recruit/">採用情報</a></li>
-</ul>
-<ul class="second">
-<li><a href="/legal.php">特定商取引法に基づく表記について</a></li>
-<li><a href="/privacy.php">プライバシーポリシー</a></li>
-</ul>
-</ul>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<p>&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> IIB All Rights Reserved.</div></p>
-</footer>
 
 
 

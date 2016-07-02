@@ -1,0 +1,86 @@
+/* #ContBlock */
+#ContBlock {position:relative; background:rgba(255,255,255,0.8); margin:40px auto; padding:30px; width:900px; height:auto;}
+#ContBlock .Title { position:relative; top:-130px; text-align:center;}
+#ContBlock .Title h2{margin-bottom:4px;}
+#ContBlock .Title p {font-size:18px;color:#4e4e4e;}
+#ContBlock h3{margin:0 auto 60px;color:#4496ab;font-size:30px;text-align:center;letter-spacing:2px;}
+#ContBlock h4{margin:0 auto 0px;color:#e53c7d;font-size:26px;}
+#ContBlock .Sec{margin:0 auto 50px;padding-bottom:60px;border-bottom:1px dashed #827f7f;}
+#ContBlock .IntroTop{margin-top:-80px;}
+#ContBlock .IntroTop .IntroTxt{float:left;width:510px;}
+#ContBlock .IntroTop .IntroTxt p{color:#827f7f;line-height:1.4;}
+#ContBlock .IntroTop .IntroTxt p.Team{margin-bottom:8px;color:#5e98be;font-size:26px;letter-spacing:3px;}
+#ContBlock .IntroTop .IntroTxt p.Kana{margin-bottom:2px;color:#bebdbd;font-size:18px;letter-spacing:2px;}
+#ContBlock .IntroTop .IntroTxt p.Name{margin-bottom:2px;color:#5e98be;font-size:36px;letter-spacing:2px;}
+#ContBlock .IntroTop .IntroTxt p.Position{margin-bottom:24px;}
+#ContBlock .IntroTop .IntroTxt dl{color:#827f7f;letter-spacing:2px;}
+#ContBlock .IntroTop .IntroTxt dl dt{float:left;width:140px;margin-bottom:2px;}
+#ContBlock .IntroTop .IntroTxt dl dd{margin-bottom:2px;}
+#ContBlock .IntroTop .IntroTxt dl.Birth{}
+#ContBlock .IntroTop .IntroTxt dl.Blood{}
+#ContBlock .IntroTop .IntroTxt dl.Home{margin-bottom:40px;}
+#ContBlock .IntroTop .IntroTxt dl.Motto{}
+#ContBlock .IntroTop .IntroTxt dl.Motto dt{float:inherit;width:auto;color:#827f7f;}
+#ContBlock .IntroTop .IntroTxt dl.Motto dd{color:#5e98be;font-size:20px;line-height:1.4;}
+#ContBlock .IntroTop .IntroImg{float:right;width:366px;height:auto;margin:0 0 24px 24px;}
+#ContBlock .IntroTop .IntroImg img{width:100%;max-width:366px;height:auto;}
+#ContBlock .IntroSpec{}
+#ContBlock .IntroSpec h3{margin-bottom:14px;}
+#ContBlock .IntroSpec ul{}
+#ContBlock .IntroSpec ul li{float:left;width:160px;height:auto;margin:0 10px 20px;}
+#ContBlock .IntroSpec ul li .graph{text-align:center;}
+#circle1 .circle{stroke:#49a5dc;}
+#circle1 .border{stroke:#bbdef1;}
+#circle2 .circle{stroke:#cbcd5a;}
+#circle2 .border{stroke:#f3f3b5;}
+#circle3 .circle{stroke:#492439;}
+#circle3 .border{stroke:#cfb3c3;}
+#circle4 .circle{stroke:#e5b324;}
+#circle4 .border{stroke:#f6e1a2;}
+#circle5 .circle{stroke:#c83a41;}
+#circle5 .border{stroke:#eeb9bb;}
+#ContBlock .IntroSpec ul li .graph .time{color:#303131;}
+#ContBlock .IntroSpec ul li p.GraphName{color:#303131;font-weight:bold;text-align:center;letter-spacing:2px;}
+#ContBlock .InterView{}
+#ContBlock .Interview .InterviewBlock{}
+#ContBlock .Interview .InterviewBlock dl{display:inline-block;position:relative;width:100%;height:auto;margin-bottom:30px;}
+#ContBlock .Interview .InterviewBlock dl.speaker01{color:#4496ab;font-size:30px;}
+#ContBlock .Interview .InterviewBlock dl.speaker02{color:#303131;}
+#ContBlock .Interview .InterviewBlock dl dt{float:left;width:120px;height:120px;}
+#ContBlock .Interview .InterviewBlock dl dt img{width:120px;height:120px;}
+#ContBlock .Interview .InterviewBlock dl dd{position:relative;margin-left:150px;padding:10px 20px;background:#f0f0f0;border-radius:5px;-webkit-border-radius:5px;}
+#ContBlock .Interview .InterviewBlock dl dd:after{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(240, 240, 240, 0);border-right-color:#f0f0f0;border-width:12px;margin-top:-12px;}
+#ContBlock .Interview .InterviewBlock dl.speaker01 dd{margin-top:20px;}
+#ContBlock .Interview .InterviewBlock dl.speaker02 dd.cell1{margin-top:34px;}
+#ContBlock .Interview .InterviewBlock dl.speaker02 dd.cell2{margin-top:20px;}
+#ContBlock .Interview .InterviewBlock dl.speaker02 dd.cell3{margin-top:6px;}
+#ContBlock .Interview .InterviewBlock dl dd span{}
+#ContBlock .IntroFav{}
+#ContBlock .IntroFav .FavBlock{margin:0 auto 30px;}
+#ContBlock .IntroFav .FavBlock.Last{margin:0 auto 60px;}
+#ContBlock .IntroFav .FavBlock .FavImg{float:left;width:395px;height:auto;margin:0 25px 25px 0;}
+#ContBlock .IntroFav .FavBlock .FavImg img{}
+#ContBlock .IntroFav .FavBlock .FavTxt{float:right;width:480px;line-height:1.6;}
+#ContBlock .IntroFav .FavBlock .FavTxt p{font-size:14px;}
+#ContBlock .IntroFav .FavBlock .FavTxt p span.small{color:#656565;font-size:12px;}
+#ContBlock .IntroFav .IntroBtn{margin:0 auto 40px;text-align:center;}
+#ContBlock .IntroFav .IntroBtn a{position:relative;}
+#ContBlock .IntroFav .IntroBtn .BtnImg{position:absolute;left:-30px;top:-30px;}
+#ContBlock .IntroFav .IntroBtn .btn{background:#ee7f8d;position:relative;border:none;font-family:inherit;font-size:inherit;color:#fff;cursor:pointer;padding:6px 20px;display:inline-block;letter-spacing:1px;outline:none;-webkit-transition:all 0.3s; -moz-transition:all 0.3s;transition:all 0.3s;}
+#ContBlock .IntroFav .IntroBtn .btn:after{content:'';position:relative;	z-index:-1;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+#ContBlock .IntroFav .IntroBtn .btn-lunch{width:530px;height:50px;margin:0 auto;background:#eb697b;color:#fff;box-shadow:0 6px #d25c6b;-webkit-transition:none;-moz-transition:none;transition:none;}
+#ContBlock .IntroFav .IntroBtn .btn-act{border-radius:5px;}
+#ContBlock .IntroFav .IntroBtn .btn-act:hover{top:6px;box-shadow:0 0px #d25c6b;}
+#ContBlock .IntroFav .IntroBtn .btn-act:active{box-shadow:0 0 #d25c6b;}
+#ContBlock .IntroFooter{}
+#ContBlock .IntroFooter .Inner{}
+#ContBlock .IntroFooter .NextTitle{}
+#ContBlock .IntroFooter .NextTitle h3{width:410px;height:126px;margin:0 auto 20px;padding:24px 320px 0 170px;background:url(../img/member/common/footer-title.png)no-repeat top center;text-align:left;}
+#ContBlock .IntroFooter ul.Menu{width:840px;height:auto;margin:0 auto;}
+#ContBlock .IntroFooter ul.Menu li{width:115px;height:auto;float:left;margin:0 30px 20px 0;text-align:center;}
+#ContBlock .IntroFooter ul.Menu li.Last{margin-right:0;}
+#ContBlock .IntroFooter ul.Menu li a{}
+#ContBlock .IntroFooter ul.Menu li a p{font-size:18px;color:#46a5bc;}
+#ContBlock .IntroFooter ul.Menu li a img{}
+
+

@@ -1,0 +1,77 @@
+/* #ContBlock */
+#ContBlock {position:relative; background:rgba(255,255,255,0.8); margin:40px auto; padding:30px; width:900px; height:auto;color:#303131;}
+#ContBlock .Title { position:relative; top:-130px; text-align:center;}
+#ContBlock .Title h2{margin-bottom:4px;}
+#ContBlock .Title p {font-size:18px;color:#4e4e4e;}
+#ContBlock h3{width:100%;height:100px;margin:0 auto 60px;padding-top:10px;color:#4496ab;font-size:30px;text-align:center;letter-spacing:2px;background:url(../img/about/history/h3.png)no-repeat top center;}
+#ContBlock h3 img{width:auto;max-width:100%;height:auto;}
+#ContBlock h4{width:100%;height:90px;margin:0 auto 40px;padding-top:20px;color:#fff;background:url(../img/about/history/h4.png)no-repeat center top; font-size:26px;text-align:center;letter-spacing:6px;/*box-sizing:border-box;-webkit-box-sizing:border-box;*/}
+#ContBlock h4.First{margin:80px auto 40px;}
+#ContBlock .Block{margin:0 auto 50px;padding-bottom:60px;border-bottom:1px dashed #827f7f;}
+#ContBlock .BlockTop{margin-top:-90px;}
+#ContBlock .Block .Inner .Box{position:relative;width:800px;height:auto;margin:0 auto;letter-spacing:2px;}
+#ContBlock .Block .Inner .Box .SubTitle{width:100%;height:auto;margin:80px auto 40px;text-align:center;font-weight:bold;font-size:26px;color:#4496ab;}
+#ContBlock .Block .Inner .Box ul.Prof li{float:left;width:32%;height:auto;margin-right:2%;}
+#ContBlock .Block .Inner .Box ul.Prof li:nth-child(3n){margin-right:0;}
+#ContBlock .Block .Inner .Box ul.Prof li img{width:100%;max-width:253px;height:auto;}
+#ContBlock .Block .Inner .Box ul.Prof li p{text-align:center;font-size:20px;}
+#ContBlock .Block .Inner .Box ul.List01{width:300px;height:auto;margin:0 auto 30px;padding:20px;color:#fff;background:#d0c5c5;}
+#ContBlock .Block .Inner .Box ul.List01 li{}
+
+#ContBlock .Block .Inner .Box p{font-size:16px;margin:0 auto 30px;}
+#ContBlock .Block .Inner .Box p.Catch{font-size:28px;}
+#ContBlock .Block .Inner .Box p.BoxImgC{width:220px;margin:0 auto 10px;text-align:center;}
+#ContBlock .Block .Inner .Box p.BoxImgC img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box p.BoxImgC-L{width:420px;margin:0 auto 10px;text-align:center;}
+#ContBlock .Block .Inner .Box p.BoxImgC-L img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box p.BoxImgR{float:right;width:220px;margin:0 0 10px 20px;text-align:right;}
+#ContBlock .Block .Inner .Box p.BoxImgR img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box p.BoxImgR-L{float:right;width:420px;margin:0 0 10px 20px;text-align:right;}
+#ContBlock .Block .Inner .Box p.BoxImgR-L img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box p.BoxImgL{float:left;width:220px;margin:0 20px 10px 0;text-align:right;}
+#ContBlock .Block .Inner .Box p.BoxImgL img{width:auto;max-width:100%;height:auto;}
+#ContBlock .Block .Inner .Box p.BoxImgL-L{float:left;width:420px;margin:0 20px 10px 0;text-align:right;}
+#ContBlock .Block .Inner .Box p.BoxImgL-L img{width:auto;max-width:100%;height:auto;}
+
+#ContBlock .IntroFooter{}
+#ContBlock .IntroFooter .Inner{}
+#ContBlock .IntroFooter .NextTitle{}
+#ContBlock .IntroFooter .NextTitle h3{width:410px;height:126px;margin:0 auto 20px;padding:24px 320px 0 170px;background:url(../img/member/common/footer-title.png)no-repeat top center;text-align:left;}
+#ContBlock .IntroFooter ul.Menu{width:840px;height:auto;margin:0 auto;}
+#ContBlock .IntroFooter ul.Menu li{width:115px;height:auto;float:left;margin:0 30px 20px 0;text-align:center;}
+#ContBlock .IntroFooter ul.Menu li.Last{margin-right:0;}
+#ContBlock .IntroFooter ul.Menu li a{}
+#ContBlock .IntroFooter ul.Menu li a p{font-size:18px;color:#46a5bc;}
+#ContBlock .IntroFooter ul.Menu li a img{}
+
+
+/* Company */
+#Company .Block{padding:30px;}
+#Company dl{display:block;overflow:hidden;width:100%;height:auto;margin:0 auto 15px;padding-bottom:10px;border-bottom:1px dashed #333;letter-spacing:2px;}
+#Company dl.Last{border:none;}
+#Company dl dt{float:left;width:180px;height:auto;margin-right:20px;}
+#Company dl dd{float:right;width:640px;height:auto;}
+
+
+/* Mission */
+#Mission .MissionTitle{font-family:ryumin;font-size:60px;text-align:center;color:#6d6d6d;letter-spacing:2px;line-height:1.6;}
+#Mission .MissionTitle .wkwk{color:#ef8fb3;}
+#Mission .MissionTitle .spsp{color:#7ba8da;}
+#Mission .MissionEnglish{margin:0 auto 100px;font-family:ryumin;font-size:40px;text-align:center;color:#6d6d6d;letter-spacing:4px;line-height:1.6;}
+#Mission .MissionTxt{font-size:20px;text-align:center;color:#6d6d6d;letter-spacing:4px;}
+#Mission .MissionBox{margin:40px auto 200px;}
+#Mission .Inner .Title{top:0;}
+#Mission .Inner .Title.Credo{margin-bottom:60px;}
+
+/* Message */
+#Message{}
+#Message .MsgImg{margin:0 auto 20px;text-align:center;}
+#Message .MsgTxt{margin:0 auto 140px;text-align:center;font-size:24px;}
+
+
+/* Privacy */
+/*#Privacy #ContBlock .BlockTop{padding-top:20px;}*/
+#Privacy #ContBlock .Block{color:#727272;font-size:14px;}
+#Privacy #ContBlock .Block .Inner .Box p{font-size:14px;}
+#Privacy #ContBlock .Block .Inner .Box a{color:#4496ab;}
+#Privacy #ContBlock .Block .Inner .Box h3{width:100%;height:auto;margin:40px auto 10px;padding-top:0;color:#4496ab;font-size:20px;text-align:left;letter-spacing:2px;background:none;}

@@ -1,0 +1,51 @@
+#ContactBlock{position:relative;background:#cbcbcb;}
+#ContactBlock .MV{width:100%;height:587px;background:url(../img/contact/mv.png)no-repeat top center;background-size:cover;z-index:1;}
+#ContactBlock.recruit .MV{width:100%;height:587px;background:url(../img/recruit/mv.png)no-repeat top center;background-size:cover;z-index:1;}
+/*#ContactBlock .MV img{width:100%;min-width:1200px;height:auto;}*/
+#ContactBlock .Block {width:924px;margin:-60px auto 100px;padding:60px 50px; color:#4e4e4e; text-align: center; line-height:1.8; font-size:16px;background:#fff;z-index:20;box-shadow:10px 10px 1px rgba(0, 0, 0, 0.2);-webkit-box-shadow:10px 10px 1px rgba(0, 0, 0, 0.2);-moz-box-shadow:10px 10px 1px rgba(0, 0, 0, 0.2);-ms-box-shadow:10px 10px 1px rgba(0, 0, 0, 0.2);-o-box-shadow:10px 10px 1px rgba(0, 0, 0, 0.2);}
+#ContactBlock .Block h2{margin-bottom:20px;}
+#ContactBlock .Block p{font-size:18px;color:#4e4e4e;letter-spacing:2px;}
+#ContactBlock .Block .SubTitle{width:100%;height:auto;margin:20px auto 40px;text-align:center;font-size:30px;letter-spacing:4px;}
+#ContactBlock .Block p.Txt{margin:0 auto 80px;}
+#ContactBlock .Block .erorr{margin-top:20px;color:#D32F32;font-size:16px;}
+#ContactBlock .Block p.fc-red {color:#D32F32;}
+#ContactBlock .Block dl.Form { overflow:hidden; margin-bottom:2%;}
+#ContactBlock .Block dl.Form.Last{margin-bottom:6%;}
+#ContactBlock .Block dl.Form dt{font-weight:bold; float:left; width:16%; text-align:right;line-height: 3.5;}
+#ContactBlock .Block dl.Form dd{ float:right; width:82%; text-align:left;}
+#ContactBlock .Block dl.Form dd input{height:14px;font-size:14px;line-height:1;}
+#ContactBlock .Block dl.Form dd input[type="text"]{ width: 95%; padding: 2%;border:solid 2px #eee;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;}
+#ContactBlock .Block dl.Form dd input[type="radio"]{width:auto;}
+#ContactBlock .Block dl.Form dd span {line-height:3.5;}
+#ContactBlock .Block dl.Form dd select{padding: 2%; width: 50%;line-height:1;color:#B3B3B3;font-size:16px;border:solid 2px #eee;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;-webkit-appearance:none;-moz-appearance:none;appearance:none;text-indent:.01px;text-overflow:"";background:#fff url(../img/contact/select_arrow.jpg) no-repeat right;}
+#ContactBlock .Block dl.Form dd select option{font-size:16px;}
+#ContactBlock .Block dl.Form dd textarea{width:95%;min-height:140px;padding:2%;font-size:16px;border:solid 2px #eee;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;}
+#ContactBlock .Block #btn-sendMail{margin:40px auto;text-align:center;font-family:Meiryo, メイリオ, Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;}
+#ContactBlock .Block #btn-sendMail input{display:none;}
+#ContactBlock .Block #btn-sendMail label{background:#ee7f8d;position:relative;border:none;font-family:inherit;font-size:30px;color:#fff;cursor:pointer;padding:3px 20px;display:inline-block;letter-spacing:4px;outline:none;-webkit-transition:all 0.3s; -moz-transition:all 0.3s;transition:all 0.3s;}
+#ContactBlock .Block #btn-sendMail label:after{content:'';position:relative;	z-index:-1;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+#ContactBlock .Block #btn-sendMail label.btn-lunch{width:530px;height:50px;margin:0 auto;background:#eb697b;color:#fff;box-shadow:0 6px #d25c6b;-webkit-transition:none;-moz-transition:none;transition:none;}
+#ContactBlock .Block #btn-sendMail label.btn-act{border-radius:5px;}
+#ContactBlock .Block #btn-sendMail label.btn-act:hover{top:6px;box-shadow:0 0px #d25c6b;cursor:pointer;}
+#ContactBlock .Block #btn-sendMail label.btn-act:active{box-shadow:0 0 #d25c6b;}
+
+
+/* Recruit */
+#ContactBlock .Block h3{width:100%;height:auto;margin:0 auto 40px;color:#3ea4da;font-size:30px;border-bottom:4px solid #3ea4da;}
+#ContactBlock .Block .Box{position:relative;margin:0 auto 80px;text-align:left;}
+#ContactBlock .Block .Box.Top{text-align:center;}
+#ContactBlock .Block .Box p{letter-spacing:1px;}
+#ContactBlock .Block .Box .BoxImg{float:right;width:340px;height:auto;margin:0 0 10px 20px;}
+#ContactBlock .Block .Box .BoxImg img{width:auto;max-width:100%;height:auto;}
+#ContactBlock .Block .Box .BoxTxt{float:left;width:564px;height:auto;}
+#ContactBlock .Block .Box .BoxTxt p{}
+#ContactBlock .Block .Box .ListImg{width:320px;height:auto;margin:0 20px 10px 0;}
+#ContactBlock .Block .Box .ListImg img{width:100%;max-width:320px;height:auto;}
+#ContactBlock .Block .Box .ListTxt{float:right;width:584px;height:auto;}
+#ContactBlock .Block .Box .ListTxt dl.List{margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid #4e4e4e;color:#4e4e4e;}
+#ContactBlock .Block .Box .ListTxt dl.List.Last{border:none;}
+#ContactBlock .Block .Box .ListTxt dl.List dt{font-weight:bold;}
+#ContactBlock .Block .Box .ListTxt dl.List dd{}
+#ContactBlock .Block .Box ul.List01{display:inline-block;margin:0 0 30px 0;padding:20px 30px;font-size:18px;color:#fff;letter-spacing:2px;background:#2d7ab6;}
+#ContactBlock .Block .Box ul.List01 li{width:260px;margin-bottom:10px;padding:0 0 2px 38px;border-bottom:1px solid #fff;background:url(../img/recruit/list-arrow.png)no-repeat left 6px;}
+#ContactBlock .Block .Box .blue{color:#2d7ab6;}

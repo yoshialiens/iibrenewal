@@ -70,6 +70,8 @@ ini_set( 'display_errors', 1 );
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <meta name="description" content="<?php echo $item['description']; ?>">
 <meta name="keywords" content="【ここにキーワード】">
+<link rel="canonical" href="http://www.i-i-b.jp/post.php?item_id={$item['item_id']}" />
+
 
 <!--title・icon-->
 <title><?php echo $item['title']; ?> | 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
@@ -155,8 +157,8 @@ ini_set( 'display_errors', 1 );
   <footer>
     <p class="f_logo"><img src="common/img/h_logo.png" alt="株式会社いないいないばぁ"></p>
     <ul class="link">
-      <li><a href="#">特定商取引法に基づく表記について</a></li>
-      <li><a href="#">プライバシポリシー</a></li>
+      <li><a href="tokusyo.php">特定商取引法に基づく表記について</a></li>
+      <li><a href="privacy.php">プライバシポリシー</a></li>
     </ul>
     <p class="copy">&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> <a href="/">IIB</a> All Rights Reserved.</p>
   </footer>

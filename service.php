@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
 <meta name="viewport" content="width=device-width,user-scalable=no" />
-<title>いないいないばぁの島|株式会社いないいないばぁ</title>
+<title>十八番（オハコ）の島|株式会社いないいないばぁ</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
 <link rel="shortcut icon" href="common/img/favicon.ico" />
@@ -18,7 +18,7 @@
 <script src="common/js/respond.min.js"></script>
 <![endif]-->
 <!--[if IE 6]><script src="common/js/minmax.js"></script><![endif]-->
-<meta property="og:title" content="" />
+<meta property="og:title" content="十八番（オハコ）の島|株式会社いないいないばぁ" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="common/img/cover.png" />
 <meta property="og:url" content="http://www.i-i-b.jp/service.php" />
@@ -30,16 +30,8 @@
 <body class="service">
 
 <div id="wrapper"><!-- wrapper -->
-<header>
-<div class="Menu"><img src="common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<ul>
-<li><img src="common/img/header/btn-fb.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-tw.png" width="27" height="27" alt=""/></li>
-<li><img src="common/img/header/btn-g.png" width="27" height="27" alt=""/></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include 'sns.php'; ?>
+<?php @include 'header.php'; ?>
 
 <div id="service-wrap"><!-- index-wrap -->
 
@@ -65,38 +57,19 @@
 <div class="people07"><img src="common/img/service/people-07.png" width="13" height="32" alt=""/></div>
 <div class="people08"><img src="common/img/service/people-08.png" width="15" height="35" alt=""/></div>
 <div class="people09"><img src="common/img/service/people-09.png" width="14" height="29" alt=""/></div>
-<div class="board01"><div class="BoardBlock Hv"><h3>サプマケ式コンサルティング</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board02"><div class="BoardBlock Hv"><h3>ボードゲーム制作</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board03"><div class="BoardBlock Hv"><h3>サプマケ式プロモーション</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board04"><div class="BoardBlock Hv"><h3>サプマケ式動画制作</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board05"><div class="BoardBlock Hv"><h3>車内サプライズ</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board06"><div class="BoardBlock Hv"><h3>サプマケ式WEB制作</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board01"><div class="BoardBlock Hv"><h3>コンサルティング</h3><p>サプライズの力で問題をアッサリ解決します。</p><a href="service/#Consulting"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board02"><div class="BoardBlock Hv"><h3>ボードゲーム制作</h3><p>ボードゲームを使った新しい学びのカタチを提案します。</p><a href="service/#Boardgame"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board03"><div class="BoardBlock Hv"><h3>プロモーション企画・制作</h3><p>アイディア出しからファン創りまでお手伝いをします。</p><a href="service/#Promotion"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board04"><div class="BoardBlock Hv"><h3>サプライズ動画制作</h3><p>期待を裏切る映像で、観る人の注目を集めます。</p><a href="service/#Movie"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board05"><div class="BoardBlock Hv"><h3>社内サプライズ</h3><p>社内が変われば、結果が変わる。劇的な変化をもたらします。</p><a href="service/#Company"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board06"><div class="BoardBlock Hv"><h3>ウェブ制作</h3><p>３歩先のクリエイティブを生み出します。</p><a href="service/#Web"><img src="common/img/about/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
 </div>
 </section>
 
 
 </div><!-- /service-wrap -->
+<?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
-
-
-<footer>
-<ul>
-<li><a href="/">HOME</a></li>
-<li><a href="#">お知らせ</a></li>
-<li><a href="#">会社概要</a></li>
-<li><a href="#">事業内容</a></li>
-<li><a href="#">メンバー紹介</a></li>
-<li><a href="/contact/">お問合わせ</a></li>
-<li><a href="/recruit/">採用情報</a></li>
-</ul>
-<ul class="second">
-<li><a href="/legal.php">特定商取引法に基づく表記について</a></li>
-<li><a href="/privacy.php">プライバシーポリシー</a></li>
-</ul>
-</ul>
-<div class="Logo"><img src="common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
-<p>&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> IIB All Rights Reserved.</div></p>
-</footer>
 
 
 
