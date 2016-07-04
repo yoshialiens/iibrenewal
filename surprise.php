@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
-<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=1200px,user-scalable=no" />
 <title>サプライズの島|株式会社いないいないばぁ</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="common/css/animate.css" type="text/css" media="all">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="common/js/common.js"></script>
+<script src="common/js/jquery.circliful.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="common/js/respond.min.js"></script>
@@ -38,6 +39,8 @@
 <section>
 <div id="SurpriseBlock">
 <div class="Title"><h2><img src="common/img/surprise/h2.png" width="259" height="46" alt="サプライズの島"/></h2><p>サプライズの島</p></div>
+<div class="ProcessBlock"><div class="graph"><div id="ProcessGraph"></div></div><p>開発進捗度</p></div>
+<div class="Constructor"><img src="common/img/common/process/constructor.png" width="69" height="97" alt=""/></div>
 <div class="animal01"><img src="common/img/surprise/animal-01.png" width="26" height="39" alt=""/></div>
 <div class="animal02"><img src="common/img/surprise/animal-02.png" width="24" height="50" alt=""/></div>
 <div class="animal03"><img src="common/img/surprise/animal-03.png" width="38" height="76" alt=""/></div>
@@ -68,8 +71,8 @@
 <div class="people05"><img src="common/img/surprise/people-05.png" width="29" height="47" alt=""/></div>
 <div class="people06"><img src="common/img/surprise/people-06.png" width="52" height="28" alt=""/></div>
 <!-- <div class="board01"><div class="BoardBlock Hv"><h3>あなたのサプライズ魅力度チェック</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div> -->
-<div class="board02"><div class="BoardBlock Hv"><h3>サプマケ研究所</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="article.php"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
-<div class="board03"><div class="BoardBlock Hv"><h3>サプライズマーケティングとは</h3><p>テキストです。テキストです。テキストです。テキストです。</p><a href="#"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board02"><div class="BoardBlock Hv"><h3>サプマケ研究所</h3><p>サプライズマーケティングの活かし方や研究結果はコチラから。</p><a href="category.php?category_id=1"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
+<div class="board03"><div class="BoardBlock Hv"><h3>サプライズマーケティングとは</h3><p>普通とはちょっと違った「サプライズマーケティング」の紹介をしています。</p><a href="surprise/"><img src="common/img/surprise/hv/btn-show.png" alt="Show Me More" width="133" height="29"></a></div></div>
 </div>
 </section>
 
@@ -78,6 +81,25 @@
 <?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
 
+<script type="text/javascript">
+    $( document ).ready(function() { // 6,32 5,38 2,34
+        $("#ProcessGraph").circliful({
+        	dimension: 400,
+            animation: 1,
+            animationStep: 5,
+            foregroundBorderWidth: 10,
+            backgroundBorderWidth: 10,
+            percent: 32,
+            point: '%',
+            textSize: 50,
+            textStyle: 'font-size: 50px;',
+            textColor: '#303131',
+            multiPercentage: 1,
+            percentages: [10, 20, 30],
+            info: "test"
+        });
+    });
+</script>
 
 
 

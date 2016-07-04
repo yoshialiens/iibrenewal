@@ -29,16 +29,16 @@
 #ContBlock .IntroSpec ul{}
 #ContBlock .IntroSpec ul li{float:left;width:160px;height:auto;margin:0 10px 20px;}
 #ContBlock .IntroSpec ul li .graph{text-align:center;}
-#circle1 .circle{stroke:#49a5dc;}
-#circle1 .border{stroke:#bbdef1;}
-#circle2 .circle{stroke:#cbcd5a;}
-#circle2 .border{stroke:#f3f3b5;}
-#circle3 .circle{stroke:#492439;}
-#circle3 .border{stroke:#cfb3c3;}
-#circle4 .circle{stroke:#e5b324;}
-#circle4 .border{stroke:#f6e1a2;}
-#circle5 .circle{stroke:#c83a41;}
-#circle5 .border{stroke:#eeb9bb;}
+#circle1 .circle{stroke:#3498db;}
+#circle1 .border{stroke:#88ccfa;}
+#circle2 .circle{stroke:#f1c40f;}
+#circle2 .border{stroke:#f7e392;}
+#circle3 .circle{stroke:#e74c3c;}
+#circle3 .border{stroke:#fb8073;}
+#circle4 .circle{stroke:#16a085;}
+#circle4 .border{stroke:#8defdc;}
+#circle5 .circle{stroke:#9b59b6;}
+#circle5 .border{stroke:#daa0f2;}
 #ContBlock .IntroSpec ul li .graph .time{color:#303131;}
 #ContBlock .IntroSpec ul li p.GraphName{color:#303131;font-weight:bold;text-align:center;letter-spacing:2px;}
 #ContBlock .InterView{}

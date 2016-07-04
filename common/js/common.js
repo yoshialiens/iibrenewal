@@ -7,10 +7,29 @@ $(document).ready(function(){
   $('#ServiceHvBlock').css("display","none");
   $('#SurpriseHvBlock').css("display","none");
   $('#PresentHvBlock').css("display","none");
+  $('#ActionBlock02 .Action02 .Act2-2').css("display","none");
+
+// top fadeout
+setTimeout(function(){$("#ActionBlock01 .Action01 .Act1-1").css("display","block").fadeIn();},0);
+setTimeout(function(){$("#ActionBlock01 .Action01 .Act1-2").css("display","block").fadeIn();},4000);
+setTimeout(function(){
+$("#ActionBlock01").fadeOut();
+},6000);
+setTimeout(function(){
+$("#ActionBlock02 .Action02 .Act2-1").animate({top:'0px'}, 1500).delay(0);
+},6000);
+setTimeout(function(){
+$("#ActionBlock02 .Action02 .Act2-2").fadeIn();
+},7500);
+// setInterval(function(){
+// $('#ActionBlock02 .Action02 .Act2-2').fadeOut(100,function(){$(this).fadeIn(100)});
+// },8000);
 
   //click news
   $("#NewsBlock .btn01").click(function(){
     $('#NewsHvBlock').css("display","block"); //クリック時
+    $("#ActionBlock01").stop().fadeOut(1000);
+    $("#ActionBlock02").stop().fadeOut(1000);
     $("#NewsHvBlock .monster01 img").css({opacity:'0',"margin-top":'204px',"-webkit-animation":'rumble 0.2s linear 12',"animation":'rumble 0.2s linear 12'});
     setTimeout(function(){
 		$("#NewsHvBlock .monster01 img").stop().animate({opacity:'1',"margin-top":'0px'},1200);
@@ -144,6 +163,17 @@ $(window).bind("load", function(){
   else{}
 });
 
+$(function () {
+    var headerHight = 200; //ヘッダの高さ
+    $('a[href^=#]').click(function(){
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top-headerHight; //ヘッダの高さ分位置をずらす
+        $("html, body").animate({scrollTop:position}, 550, "swing");
+        return false;
+    });
+});
+
 
 // $(function(){
 //    $(window).scroll(function(){ // スクロール毎にイベントが発火します。
@@ -151,3 +181,31 @@ $(window).bind("load", function(){
 //       $('#ToggleMenu').css('top', scr_count);
 //    })
 // })
+
+// useragent
+(function(){
+    var ua = navigator.userAgent.toUpperCase();
+    var url = document.location.pathname;
+    var spDir = '/sp';
+
+    (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1))?
+        isSP() :
+        isPC();
+
+    function isSP(){
+        if(url.match(spDir)){
+            return false;
+        }else{
+            location.href = spDir + url + location.search;
+        }
+    }
+
+    function isPC(){
+        if(!url.match(spDir)){
+            return false;
+        }else{
+            location.href = '' + url + location.search;
+        }
+    }
+
+}());

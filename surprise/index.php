@@ -31,35 +31,8 @@
 <body class="content">
 
 <div id="wrapper"><!-- wrapper -->
-<div id="ToggleMenu">
-<button class="close-button" id="close-button">Close Menu</button>
-<div class="MenuInner">
-<nav>
-<ul class="Hv">
-<a href="../"><li>HOME</li></a>
-<a href="../about.php"><li>いないいないばぁの島</li></a>
-<a href="../service.php"><li>十八番（オハコ）の島</li></a>
-<a href="../surprise.php"><li>サプライズの島</li></a>
-<a href="../member.php"><li>モンスターの島</li></a>
-<a href="../blog.php"><li>ブログの島</li></a>
-<a href="../present.php"><li>プレゼントの島</li></a>
-<a href="../contact"><li>お問い合わせ</li></a>
-<a href="../recruit"><li>採用情報</li></a>
-</ul>
-</nav>
-</div>
-</div>
-<header>
-<div class="Menu"><img src="../common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="../common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
 <?php @include '../sns.php'; ?>
-<ul>
-<li><a href="<?php echo $fb_href; ?>" target="_blank"><img src="../common/img/header/btn-fb.png" width="27" height="27" alt=""/></a></li>
-<li><a href="<?php echo $tw_href; ?>" target="_blank"><img src="../common/img/header/btn-tw.png" width="27" height="27" alt=""/></a></li>
-<li><a href="<?php echo $g_href; ?>" target="_blank"><img src="../common/img/header/btn-g.png" width="27" height="27" alt=""/></a></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include '../header.php'; ?>
 
 <div id="content-wrap" class="surprise"><!-- content-wrap -->
 
@@ -147,19 +120,19 @@
 			着火した火を焚きつけ、<br>
 			長期間、燃え続けるように<br>
 			燃料を注ぐ必要があるのです。</p>
-			<p>多くの方がこのポイントを<br>
+			<p class="endnote">多くの方がこのポイントを<br>
 			見落としがちなため、<br>
 			継続的な関係を築けていません。</p>
-			<p class="midnote">それでは、<br>
+			<!-- <p class="midnote">それでは、<br>
 			具体的なステップを<br>
-			ご紹介しましょう。</p>
-			<p class="endnote">1.”サプライズ”の効果を最大化する３つのステップ<br>
+			ご紹介しましょう。</p> -->
+			<!-- <p class="endnote">1.”サプライズ”の効果を最大化する３つのステップ<br>
 				2.サプライズマーケティングで結束が固まったA社様<br>
 				3.社員80名、このタイミングで強い絆を創りたい<br>
 				4.ここまで来れたのもみんなのおかげ。その気持ちを伝えたいんです。<br>
 				5.この想いを受けて、サプライズマーケティングを設計！<br>
 				6.そして・・・<br>
-				7.実際に体験された方の声</p>
+				7.実際に体験された方の声</p> -->
 
 			<h3 class="Btm40"><img src="../common/img/surprise/about/h3-05.png" width="468" alt="240" alt="最後に"></h3>
 			<p>私たちが提供する<br>「サプライズマーケティング」を<br>ご理解いただけたでしょうか？</p>

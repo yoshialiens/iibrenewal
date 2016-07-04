@@ -47,7 +47,7 @@
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
-<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=1200px,user-scalable=no" />
 <title>株式会社いないいないばぁ</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />

@@ -55,7 +55,7 @@
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
-<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=1200px,user-scalable=no" />
 <title><?php echo $category['name']; ?>| サプライズマーケティングなら株式会社いないいないばぁ</title>
 <meta name="description" content="<?php echo $category['description']; ?>" />
 <meta name="robots" content="ALL" />

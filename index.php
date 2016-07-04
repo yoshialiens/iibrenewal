@@ -38,7 +38,7 @@
   }
   //ソーシャルボタン用
   // $server_name = $_SERVER['SERVER_NAME'];
-  // $social_url = urlencode("http://{$server_name}/rticle.php");
+  // $social_url = urlencode("http://{$server_name}/article.php");
   // $url = "http://{$server_name}/article.php";
 ?>
 
@@ -47,7 +47,7 @@
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
-<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=1200px,user-scalable=yes" />
 <title>株式会社いないいないばぁ|サプライズマーケティング会社</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
@@ -123,7 +123,11 @@
 <div class="bird05"><img src="common/img/index/news/bird-05.png" width="74" height="64" alt=""/></div>
 <div class="man01"><img src="common/img/index/news/man-01.png" width="33" height="64" alt=""/></div>
 <div class="cow01"><img src="common/img/index/news/cow-01.png" width="79" height="49" alt=""/></div>
-<div class="btn01"><img src="common/img/index/news/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a onClick="sound01()"><img src="common/img/index/news/btn-01.png" width="103" height="145" alt=""/></a></div>
+<audio id="sound01" preload="auto">
+<source src="common/voice/voice-01.mp3" type="audio/mp3">
+<source src="common/voice/voice-01.wav" type="audio/wav">
+</audio>
 </div>
 </section>
 
@@ -135,7 +139,11 @@
 <div class="lion01"><img src="common/img/index/about/lion-01.png" width="110" height="68" alt=""/></div>
 <div class="lizard01"><img src="common/img/index/about/lizard-01.png" width="83" height="45" alt=""/></div>
 <div class="turtle01"><img src="common/img/index/about/turtle-01.png" width="64" height="33" alt=""/></div>
-<div class="btn01"><img src="common/img/index/about/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a onClick="sound02()"><img src="common/img/index/about/btn-01.png" width="103" height="145" alt=""/></a></div>
+<audio id="sound02" preload="auto">
+<source src="common/voice/voice-02.mp3" type="audio/mp3">
+<source src="common/voice/voice-02.wav" type="audio/wav">
+</audio>
 </div>
 </section>
 
@@ -146,7 +154,11 @@
 <div class="balloon01"><img src="common/img/index/service/balloon-01.png" width="50" height="74" alt=""/></div>
 <div class="car01"><img src="common/img/index/service/car-01.png" width="60" height="41" alt=""/></div>
 <div class="car02"><img src="common/img/index/service/car-02.png" width="57" height="52" alt=""/></div>
-<div class="btn01"><img src="common/img/index/service/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a onClick="sound03()"><img src="common/img/index/service/btn-01.png" width="103" height="145" alt=""/></a></div>
+<audio id="sound03" preload="auto">
+<source src="common/voice/voice-03.mp3" type="audio/mp3">
+<source src="common/voice/voice-03.wav" type="audio/wav">
+</audio>
 </div>
 </section>
 
@@ -155,10 +167,18 @@
 <h2><a href="member.php"><img src="common/img/index/member/h2.png" width="182" height="47" alt="いないいないばぁのメンバー紹介"/></a></h2>
 <div class="man01"><img src="common/img/index/member/man-01.png" width="102" height="93" alt=""/></div>
 <div class="man02"><img src="common/img/index/member/man-02.png" width="50" height="109" alt=""/></div>
-<div class="man03"><img src="common/img/index/member/man-03.png" width="123" height="64" alt=""/></div>
+<div class="man03"><a onClick="sound10()"><img src="common/img/index/member/man-03.png" width="123" height="64" alt=""/></a></div>
+<audio id="sound10" preload="auto">
+<source src="common/voice/voice-10.mp3" type="audio/mp3">
+<source src="common/voice/voice-10.wav" type="audio/wav">
+</audio>
 <div class="woman01"><img src="common/img/index/member/woman-01.png" width="43" height="145" alt=""/></div>
 <div class="monster01"><img src="common/img/index/member/monster-01.png" width="178" height="81" alt=""/></div>
-<div class="btn01"><img src="common/img/index/member/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a onClick="sound04()"><img src="common/img/index/member/btn-01.png" width="103" height="145" alt=""/></a></div>
+<audio id="sound04" preload="auto">
+<source src="common/voice/voice-04.mp3" type="audio/mp3">
+<source src="common/voice/voice-04.wav" type="audio/wav">
+</audio>
 </div>
 </section>
 
@@ -173,7 +193,11 @@
 <div class="monkey01"><img src="common/img/index/surprise/monkey-01.png" width="94" height="114" alt=""/></div>
 <div class="sealion01"><img src="common/img/index/surprise/sealion-01.png" width="69" height="99" alt=""/></div>
 <div class="tiger01"><img src="common/img/index/surprise/tiger-01.png" width="136" height="77" alt=""/></div>
-<div class="btn01"><img src="common/img/index/surprise/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a onClick="sound05()"><img src="common/img/index/surprise/btn-01.png" width="103" height="145" alt=""/></a></div>
+<audio id="sound05" preload="auto">
+<source src="common/voice/voice-05.mp3" type="audio/mp3">
+<source src="common/voice/voice-05.wav" type="audio/wav">
+</audio>
 </div>
 </section>
 
@@ -193,7 +217,11 @@
 <div class="demon01"><img src="common/img/index/present/demon-01.png" width="57" height="56" alt=""/></div>
 <div class="dragon01"><img src="common/img/index/present/dragon-01.png" width="119" height="81" alt=""/></div>
 <div class="fujiyama01"><img src="common/img/index/present/fujiyama-01.png" width="172" height="67" alt=""/></div>
-<div class="btn01"><img src="common/img/index/present/btn-01.png" width="103" height="145" alt=""/></div>
+<div class="btn01"><a onClick="sound06()"><img src="common/img/index/present/btn-01.png" width="103" height="145" alt=""/></a></div>
+<audio id="sound06" preload="auto">
+<source src="common/voice/voice-08.mp3" type="audio/mp3">
+<source src="common/voice/voice-08.wav" type="audio/wav">
+</audio>
 </div>
 </section>
 
@@ -232,7 +260,7 @@
 <li class="plane"><img src="common/img/index/about/hv/plane-01.png" width="211" height="77" alt="飛行機"></li>
 <li class="menu01"><a href="about/company.php"><img src="common/img/index/about/hv/btn-about01.png" width="116" height="63" alt="会社概要"></a></li>
 <li class="menu02 Hv"><a href="about/history.php"><img src="common/img/index/about/hv/btn-about02.png" width="98" height="59" alt="歴史"></a></li>
-<li class="menu03 Hv"><a href="about/mission.php"><img src="common/img/index/about/hv/btn-about03.png" width="98" height="59" alt="クレド"></a></li>
+<li class="menu03 Hv"><a href="about/mission.php"><img src="common/img/index/about/hv/btn-about03.png" width="129" height="68" alt="ミッション"></a></li>
 <li class="menu04 Hv"><a href="about/message.php"><img src="common/img/index/about/hv/btn-about04.png" width="117" height="69" alt="代表挨拶"></a></li>
 <li class="menu05 Hv"><a href="recruit"><img src="common/img/index/about/hv/btn-about05.png" width="117" height="70" alt="採用情報"></a></li>
 </ul>
@@ -272,7 +300,7 @@
 <div class="menu">
 <ul>
 <li class="btn01 Hv"><a href="surprise/"><img src="common/img/index/surprise/hv/btn-surprise01.png" width="200" height="67" alt="サプライズマーケティングとは？"></a></li>
-<li class="btn02 Hv"><a href="category.php?category_id=3"><img src="common/img/index/surprise/hv/btn-surprise02.png" width="156" height="50" alt="サプマケ研究所"></a></li>
+<li class="btn02 Hv"><a href="category.php?category_id=1"><img src="common/img/index/surprise/hv/btn-surprise02.png" width="156" height="50" alt="サプマケ研究所"></a></li>
 <!-- <li class="btn03 Hv"><a href="surprise.php"><img src="common/img/index/surprise/hv/btn-surprise03.png" width="200" height="67" alt="あなたのサプライズ魅力度チェック"></a></li> -->
 </ul>
 </div>
@@ -291,9 +319,52 @@
 </div>
 </section>
 
+<section>
+<div id="ActionBlock01">
+<div class="Action01">
+<div class="Act1-1"><img src="common/img/index/action/top-first01.png" width="503" height="416" alt="ドドドーン!!!"></div>
+<div class="Act1-2"><img src="common/img/index/action/top-first02.png" width="418" height="164" alt="サプライズを企業文化に"></div>
+</div>
+</div>
+</section>
+
+<section>
+<div id="ActionBlock02">
+<div class="Action02">
+<div class="Act2-1"><img src="common/img/index/action/top-second01.png" width="214" height="455" alt="指差してます"></div>
+<div class="Act2-2"><img src="common/img/index/action/top-second02.png" width="489" height="157" alt="下に進むとプレゼントがあるよ"></div>
+</div>
+</div>
+</section>
+
 </div><!-- /index-wrap -->
 <?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
+
+<script>
+//　音声ファンクション
+(function (window, $) {
+  'use strict';
+
+  $.fn.useSound = function (_event, _id) {
+    var se = $(_id);
+    this.on(_event, function(){
+      se[0].currentTime = 0;
+      se[0].play();
+    });
+    return this;
+  };
+
+})(this, this.jQuery);
+
+$('#NewsBlock .btn01 a').useSound('mousedown touchstart', '#sound01');
+$('#AboutBlock .btn01 a').useSound('mousedown touchstart', '#sound02');
+$('#ServiceBlock .btn01 a').useSound('mousedown touchstart', '#sound03');
+$('#MemberBlock .btn01 a').useSound('mousedown touchstart', '#sound04');
+$('#SurpriseBlock .btn01 a').useSound('mousedown touchstart', '#sound05');
+$('#PresentBlock .btn01 a').useSound('mousedown touchstart', '#sound06');
+$('#MemberBlock .man03 a').useSound('mousedown touchstart', '#sound10');
+</script>
 
 
 </body>

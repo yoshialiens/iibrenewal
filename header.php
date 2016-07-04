@@ -20,11 +20,11 @@
 </div>
 <header>
 <div class="Menu"><img src="<?php echo $h_url; ?>/common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="<?php echo $h_url; ?>/common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
+<div class="Logo"><img src="<?php echo $h_url; ?>/common/img/header/logo.png" width="337" height="48" alt="株式会社いないいないばぁ"/></div>
 <ul>
 <li><a href="<?php echo $fb_href; ?>" target="_blank"><img src="<?php echo $h_url; ?>/common/img/header/btn-fb.png" width="27" height="27" alt=""/></a></li>
 <li><a href="<?php echo $tw_href; ?>" target="_blank"><img src="<?php echo $h_url; ?>/common/img/header/btn-tw.png" width="27" height="27" alt=""/></a></li>
 <li><a href="<?php echo $g_href; ?>" target="_blank"><img src="<?php echo $h_url; ?>/common/img/header/btn-g.png" width="27" height="27" alt=""/></a></li>
 </ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
+<a href="<?php echo $h_url; ?>/contact/"><button class="btn btn-contact btn-act">お問い合わす</button></a>
 </header>

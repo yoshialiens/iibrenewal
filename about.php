@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
-<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=1200px,user-scalable=no" />
 <title>いないいないばぁの島|株式会社いないいないばぁ</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
@@ -11,8 +11,10 @@
 <link rel="stylesheet" href="common/css/basic.css" type="text/css" media="all">
 <link rel="stylesheet" href="common/css/island.css" type="text/css" media="all">
 <link rel="stylesheet" href="common/css/animate.css" type="text/css" media="all">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="common/js/common.js"></script>
+<script src="common/js/jquery.circliful.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="common/js/respond.min.js"></script>
@@ -38,6 +40,8 @@
 <section>
 <div id="AboutBlock">
 <div class="Title"><h2><img src="common/img/about/h2.png" width="176" height="35" alt="いないいないばぁ島"/></h2><p>いないいないばぁの島</p></div>
+<div class="ProcessBlock"><div class="graph"><div id="ProcessGraph"></div></div><p>開発進捗度</p></div>
+<div class="Constructor"><img src="common/img/common/process/constructor.png" width="69" height="97" alt=""/></div>
 <div class="build15"><img src="common/img/about/building-15.png" width="63" height="112" alt=""/></div>
 <div class="monster02"><img src="common/img/about/monster-02.png" width="109" height="89" alt=""/></div>
 <div class="build01"><img src="common/img/about/building-01.png" width="192" height="118" alt=""/></div>
@@ -82,8 +86,25 @@
 <?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
 
-
-
+<script type="text/javascript">
+    $( document ).ready(function() { // 6,32 5,38 2,34
+        $("#ProcessGraph").circliful({
+        	dimension: 400,
+            animation: 1,
+            animationStep: 5,
+            foregroundBorderWidth: 10,
+            backgroundBorderWidth: 10,
+            percent: 78,
+            point: '%',
+            textSize: 50,
+            textStyle: 'font-size: 50px;',
+            textColor: '#303131',
+            multiPercentage: 1,
+            percentages: [10, 20, 30],
+            info: "test"
+        });
+    });
+</script>
 
 </body>
 </html>

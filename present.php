@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
-<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=1200px,user-scalable=no" />
 <title>プレゼントの島|株式会社いないいないばぁ</title>
 <meta name="description" content="" />
 <meta name="robots" content="ALL" />
@@ -11,8 +11,10 @@
 <link rel="stylesheet" href="common/css/basic.css" type="text/css" media="all">
 <link rel="stylesheet" href="common/css/island.css" type="text/css" media="all">
 <link rel="stylesheet" href="common/css/animate.css" type="text/css" media="all">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="common/js/common.js"></script>
+<script src="common/js/jquery.circliful.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="common/js/respond.min.js"></script>
@@ -38,9 +40,11 @@
 <section>
 <div id="PresentBlock">
 <div class="Title"><h2><img src="common/img/present/h2.png" width="243" height="35" alt="プレゼントの島"/></h2><p class="subTitle">プレゼントの島</p>
-<p>プレゼントの島説明。プレゼントの島説明。プレゼントの島説明。<br>
-プレゼントの島説明。プレゼントの島説明。プレゼントの島説明。</p>
+<p>どどん！と無料プレゼントをしています。<br>
+ちなみに、入金も受け付けているので、ゼヒ。</p>
 </div>
+<div class="ProcessBlock"><div class="graph"><div id="ProcessGraph"></div></div><p>開発進捗度</p></div>
+<div class="Constructor"><img src="common/img/common/process/constructor.png" width="69" height="97" alt=""/></div>
 <div class="build01"><img src="common/img/present/building-01.png" width="67" height="76" alt=""/></div>
 <div class="build02"><img src="common/img/present/building-02.png" width="73" height="54" alt=""/></div>
 <div class="build03"><img src="common/img/present/building-03.png" width="59" height="45" alt=""/></div>
@@ -88,9 +92,9 @@
 <div class="animal02"><img src="common/img/present/animal-02.png" width="68" height="50" alt=""/></div>
 <div class="bird01"><img src="common/img/present/bird-01.png" width="48" height="46" alt=""/></div>
 
-<div class="btn01 Hv"><a href="http://www.amazon.co.jp/registry/wishlist/1EF5JVT37NPSM" target="_blank"><img src="common/img/present/btn-01.png" width="125" height="213" alt="入金してみる"/></a></div>
+<div class="btn01 Hv"><a href="present/magazine.php"><img src="common/img/present/btn-01.png" width="125" height="213" alt="無料メルマガ"/></a></div>
 <div class="btn02 Hv"><a href="present/gift.php"><img src="common/img/present/btn-02.png" width="125" height="219" alt="無料プレゼント"/></a></div>
-<div class="btn03 Hv"><a href="present/magazine.php"><img src="common/img/present/btn-03.png" width="125" height="218" alt="無料メルマガ"/></a></div>
+<div class="btn03 Hv"><a href="http://www.amazon.co.jp/registry/wishlist/1EF5JVT37NPSM" target="_blank"><img src="common/img/present/btn-03.png" width="125" height="218" alt="入金してみる"/></a></div>
 
 </div>
 </section>
@@ -100,7 +104,25 @@
 <?php @include 'footer.php'; ?>
 </div><!-- wrapper -->
 
-
+<script type="text/javascript">
+    $( document ).ready(function() { // 6,32 5,38 2,34
+        $("#ProcessGraph").circliful({
+        	dimension: 400,
+            animation: 1,
+            animationStep: 5,
+            foregroundBorderWidth: 10,
+            backgroundBorderWidth: 10,
+            percent: 50,
+            point: '%',
+            textSize: 50,
+            textStyle: 'font-size: 50px;',
+            textColor: '#303131',
+            multiPercentage: 1,
+            percentages: [10, 20, 30],
+            info: "test"
+        });
+    });
+</script>
 
 
 </body>

@@ -224,7 +224,7 @@
 
 /* #PresentBlock */
 #PresentBlock { background:url(../img/present/mountain.png) no-repeat; position:absolute; margin: 20px 0 0 167px;width:879px; height:873px;}
-#PresentBlock .Title { position:absolute; top:-210px;left:190px;text-align:center;}
+#PresentBlock .Title { position:absolute; top:-210px;left:270px;text-align:center;}
 #PresentBlock .Title h2{margin-bottom:4px;}
 #PresentBlock .Title p {text-align:center;font-size:16px;color:#4e4e4e;}
 #PresentBlock .Title p.subTitle{margin-bottom:30px;font-size:18px;}

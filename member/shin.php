@@ -32,35 +32,8 @@
 <body class="content">
 
 <div id="wrapper"><!-- wrapper -->
-<div id="ToggleMenu">
-<button class="close-button" id="close-button">Close Menu</button>
-<div class="MenuInner">
-<nav>
-<ul class="Hv">
-<a href="../"><li>HOME</li></a>
-<a href="../about.php"><li>いないいないばぁの島</li></a>
-<a href="../service.php"><li>十八番（オハコ）の島</li></a>
-<a href="../surprise.php"><li>サプライズの島</li></a>
-<a href="../member.php"><li>モンスターの島</li></a>
-<a href="../blog.php"><li>ブログの島</li></a>
-<a href="../present.php"><li>プレゼントの島</li></a>
-<a href="../contact"><li>お問い合わせ</li></a>
-<a href="../recruit"><li>採用情報</li></a>
-</ul>
-</nav>
-</div>
-</div>
-<header>
-<div class="Menu"><img src="../common/img/header/btn-menu.png" width="40" height="34" alt="Menu"/></div>
-<div class="Logo"><img src="../common/img/header/logo.png" width="340" height="32" alt="株式会社いないいないばぁ"/></div>
 <?php @include '../sns.php'; ?>
-<ul>
-<li><a href="<?php echo $fb_href; ?>" target="_blank"><img src="../common/img/header/btn-fb.png" width="27" height="27" alt=""/></a></li>
-<li><a href="<?php echo $tw_href; ?>" target="_blank"><img src="../common/img/header/btn-tw.png" width="27" height="27" alt=""/></a></li>
-<li><a href="<?php echo $g_href; ?>" target="_blank"><img src="../common/img/header/btn-g.png" width="27" height="27" alt=""/></a></li>
-</ul>
-<button class="btn btn-contact btn-act">お問い合わす</button>
-</header>
+<?php @include '../header.php'; ?>
 
 <div id="content-wrap"><!-- content-wrap -->
 
@@ -181,8 +154,6 @@
 			<li><a href="yoshi.php"><img src="../common/img/member/common/icon-yoshi.png" alt="よしたく" width="104" height="104"><p>よしたく</p></a></li>
 			<li><a href="denden.php"><img src="../common/img/member/common/icon-denden.png" alt="でんでん" width="104" height="104"><p>でんでん</p></a></li>
 			<li><a href="som.php"><img src="../common/img/member/common/icon-som.png" alt="まっちゃん" width="104" height="104"><p>まっちゃん</p></a></li>
-			<li><a href="yakuza.php"><img src="../common/img/member/common/icon-yakuza.png" alt="ホン打" width="104" height="104"><p>ホン打</p></a></li>
-			<li><a href="saita.php"><img src="../common/img/member/common/icon-saita.png" alt="いくちゃん" width="104" height="104"><p>いくちゃん</p></a></li>
 		</ul>
 	</div>
 </div>
