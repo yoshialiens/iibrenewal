@@ -26,4 +26,42 @@ $(function(){
     $("html,body").animate({ scrollTop: 0 }, 1000 ,"swing");
       return false;
   });
+  // <!-- サイドバー開閉 -->
+  $('.Menu img').click(function(e){
+    $('body').toggleClass('MenuOpen');
+  });
+  $('.close-button').click(function(e){
+    $('body').removeClass('MenuOpen');
+  });
+
 });
+
+/*
+
+(function(){
+    var ua = navigator.userAgent.toUpperCase();
+    var url = document.location.pathname;
+    var spDir = '/sp';
+
+    (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1))?
+        isSP() :
+        isPC();
+
+    function isSP(){
+        if(url.match(spDir)){
+            return false;
+        }else{
+            location.href = spDir + url + location.search;
+        }
+    }
+    function isPC(){
+        if(!url.match(spDir)){
+            return false;
+        }else{
+            location.href = '' + url + location.search;
+        }
+    }
+
+}());
+
+*/

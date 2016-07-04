@@ -53,7 +53,16 @@
       </div>
       <ul id="inline-wrap" class="mfp-hide sp_navmenu">
         <li><a href="/"><span>TOP</span></a></li>
-        <li><a href="about/"><span>About</span></a></li>
+        <li><a href="../article.php"><span>ブログの島</span></a></li>
+        <li><a href="../service/"><span>十八番(おはこ)の島</span></a></li>
+        <li><a href="../member.php"><span>モンスターの島</span></a></li>
+        <li><a href="../history.php"><span>いないいないばぁの歴史</span></a></li>
+        <li><a href="../message.php"><span>代表挨拶</span></a></li>
+        <li><a href="../about/mission.php"><span>ミッション</span></a></li>
+        <li><a href="../company.php"><span>会社概要</span></a></li>
+        <li><a href="../recruit/"><span>採用情報</span></a></li>
+        <li><a href="../contact/"><span>お問い合わせ</span></a></li>
+        <!--
         <li>
           <a href="blog/"><span>ブログ一覧</span></a>
           <ul class="sp_subcategory">
@@ -61,9 +70,7 @@
             <li><a href="#"><span>サブカテゴリ</span></a></li>
           </ul>
         </li>
-        <li><a href="flow/"><span>制作の流れ</span></a></li>
-        <li><a href="faq/"><span>よくある質問</span></a></li>
-        <li><a href="contact/"><span>お問合せ</span></a></li>
+        -->
       </ul>
     </div>
   </header>

@@ -1,3 +1,5 @@
+<?php @include 'temp/path.php'; ?>
+
 <?php
   require_once dirname(__FILE__) . '/../admin/scripts/model/DivisionModel.class.php';
   require_once dirname(__FILE__) . '/../admin/scripts/model/CategoryModel.class.php';
@@ -47,7 +49,7 @@
 <!--[if IE 9]><html class="ie ie9"><![endif]-->
 <!--[if !IE]><!-->
 <html lang="ja">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
 
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
@@ -55,12 +57,16 @@
 <!--meta-->
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <meta name="description" content="株式会社いないいないばぁは日本一のサプライズマーケティング会社です。口コミやリピートを増やすためのサプライズを提案し、人々に喜んでもらうためのコンサルティングを行います。">
-<meta name="keywords" content="【ここにキーワード】">
+<meta name="keywords" content="IIB,いないいないばぁ,サプライズマーケティング,サプマケ">
+
+<!--icon-->
+<link rel="shortcut icon" href="/sp/common/img/favicon.ico" />
+<link rel="apple-touch-icon" href="/sp/common/img/home-icon.png">
+
+<!--title・canonical-->
+<title>ブログ記事一覧| 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
 <link rel="canonical" href="http://www.i-i-b.jp/article.php" />
 
-<!--title・icon-->
-<title>記事一覧| 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
-<link rel="shortcut icon" href="common/img/favicon.ico" />
 
 <!--CSS-->
 <link rel="stylesheet" href="common/css/common.css" type="text/css" media="all">
@@ -72,44 +78,26 @@
 <![endif]-->
 <!--[if IE 6]><script src="common/js/minmax.js"></script><![endif]-->
 
-
 <!--FB-->
-<meta property="og:title" content="日本一のサプライズマーケティング会社【株式会社いないいないばぁ】">
+<meta property="og:title" content="ブログ記事一覧 | 日本一のサプライズマーケティング会社【株式会社いないいないばぁ】">
 <meta property="og:site_name" content="株式会社いないいないばぁ">
 <meta property="og:description" content="株式会社いないいないばぁは日本一のサプライズマーケティング会社です。口コミやリピートを増やすためのサプライズを提案し、人々に喜んでもらうためのコンサルティングを行います。">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://www.i-i-b.jp/">
-<meta property="og:image" content="http://www.i-i-b.jp/common/img/common/fb.jpg">
+<meta property="og:type" content="blog">
+<meta property="og:url" content="http://www.i-i-b.jp/article.php">
+<meta property="og:image" content="http://www.i-i-b.jp/sp/common/img/fb.jpg">
+
+
+<?php @include 'analyticstracking.php'; ?>
+
 
 </head>
 <body>
 
 
 <div id="wrapper">
-  <!--header-->
-  <header>
-    <!--spnavi-->
-    <div class="head_sp">
-      <h1 class="logo"><a href="/"><img src="common/img/h_logo.png" alt="logo"></a></h1>
-      <div class="sp_menubar">
-        <a class="popup-modal modal-close" href="#inline-wrap"><i></i></a>
-      </div>
-      <ul id="inline-wrap" class="mfp-hide sp_navmenu">
-        <li><a href="/"><span>TOP</span></a></li>
-        <li><a href="about/"><span>About</span></a></li>
-        <li>
-          <a href="blog/"><span>ブログ一覧</span></a>
-          <ul class="sp_subcategory">
-            <li><a href="#"><span>サブカテゴリ</span></a></li>
-            <li><a href="#"><span>サブカテゴリ</span></a></li>
-          </ul>
-        </li>
-        <li><a href="flow/"><span>制作の流れ</span></a></li>
-        <li><a href="faq/"><span>よくある質問</span></a></li>
-        <li><a href="contact/"><span>お問合せ</span></a></li>
-      </ul>
-    </div>
-  </header>
+  
+  <?php @include 'temp/header.php'; ?>
+
   <!--container-->
   <div class="container" id="article">
     <div class="catch"><img src="common/img/img_catch_article.png" alt="株式会社いないいないばぁからのおしらせ"></div>
@@ -117,18 +105,6 @@
       <?php foreach($category_all as $c2): ?>
       <li><a href="category.php?category_id=<?php echo $c2['category_id']; ?>"><?php echo $c2['name']; ?></a></li>
       <?php endforeach; ?>
-
-
-<!--
-
-
-      <li><a href="#">ニュース</a></li>
-      <li><a href="#">プレスリリース</a></li>
-      <li><a href="#">おふざけ系</a></li>
-      <li><a href="#">メンターナビ</a></li>
-      <li><a href="#">感動・おふざけ系</a></li>
-
-      -->
     </ul>
     <section class="article_list">
       <?php foreach($item_all2 as $v2): ?>
@@ -147,47 +123,7 @@
       </article>
       <?php endforeach; ?>
 
-      <!--
-      <article>
-        <a href="#">
-        <div class="flg_zone">
-          <p class="date"><span>2016.06.15</span></p>
-        </div>
-        <div class="title_l">
-          <p class="cate">おふざけ</p>
-          <h2>いないいないばぁのモンスター伝説① 副社長しんのすけ</h2>
-        </div>
-        <p class="photo"><img src="common/img/sample_01.png" alt="photo"></p>
-        <div class="txt">ニューステキストニューステキストニューステキストニューステキストニューステキストニューステキストニューステキストニューステキスト...</div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-        <div class="flg_zone">
-          <p class="date"><span>2016.06.15</span></p>
-        </div>
-        <div class="title_l">
-          <p class="cate">おふざけ</p>
-          <h2>いないいないばぁのモンスター伝説① 副社長しんのすけ</h2>
-        </div>
-        <p class="photo"><img src="common/img/sample_01.png" alt="photo"></p>
-        <div class="txt">ニューステキストニューステキストニューステキストニューステキストニューステキストニューステキストニューステキストニューステキスト...</div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-        <div class="flg_zone">
-          <p class="date"><span>2016.06.15</span></p>
-        </div>
-        <div class="title_l">
-          <p class="cate">おふざけ</p>
-          <h2>いないいないばぁのモンスター伝説① 副社長しんのすけ</h2>
-        </div>
-        <p class="photo"><img src="common/img/sample_01.png" alt="photo"></p>
-        <div class="txt">ニューステキストニューステキストニューステキストニューステキストニューステキストニューステキストニューステキストニューステキスト...</div>
-        </a>
-      </article>
-      -->
+     
     </section>
     <div class="pagination">
     <?php for($p=0;$p<$page_max;++$p){ ?>
@@ -201,15 +137,7 @@
     
   </div><!--container-->
 
-  <!--footer-->
-  <footer>
-    <p class="f_logo"><img src="common/img/h_logo.png" alt="株式会社いないいないばぁ"></p>
-    <ul class="link">
-      <li><a href="tokusyo.php">特定商取引法に基づく表記について</a></li>
-      <li><a href="privacy.php">プライバシポリシー</a></li>
-    </ul>
-    <p class="copy">&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> <a href="/">IIB</a> All Rights Reserved.</p>
-  </footer>
+  <?php @include 'temp/footer.php'; ?>
 
 </div>
 
@@ -226,6 +154,12 @@ $(function () {
   $(document).on('click', '.popup-modal-dismiss', function (e) {
     e.preventDefault();
     $.magnificPopup.close();
+  });
+});
+$(function(){
+  $("#ToggleMenu li.sub").on("click", function() {
+    $(this).next().slideToggle();
+    return false;
   });
 });
 </script>

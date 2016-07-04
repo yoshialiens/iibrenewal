@@ -1,9 +1,8 @@
+<?php @include '../temp/path.php'; ?>
+
 <!doctype html>
-<!--[if IE 8]><html class="ie ie8"><![endif]-->
-<!--[if IE 9]><html class="ie ie9"><![endif]-->
-<!--[if !IE]><!-->
 <html lang="ja">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
 
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
@@ -11,12 +10,16 @@
 <!--meta-->
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <meta name="description" content="株式会社いないいないばぁは日本一のサプライズマーケティング会社です。口コミやリピートを増やすためのサプライズを提案し、人々に喜んでもらうためのコンサルティングを行います。">
-<meta name="keywords" content="【ここにキーワード】">
-<link rel="canonical" href="http://www.i-i-b.jp/member/service/" />
+<meta name="keywords" content="IIB,いないいないばぁ,サプライズマーケティング,サプマケ">
 
-<!--title・icon-->
+<!--icon-->
+<link rel="shortcut icon" href="/sp/common/img/favicon.ico" />
+<link rel="apple-touch-icon" href="/sp/common/img/home-icon.png">
+
+<!--title・canonical-->
 <title>十八番(おはこ)の島| 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
-<link rel="shortcut icon" href="../common/img/favicon.ico" />
+<link rel="canonical" href="http://www.i-i-b.jp/service/" />
+
 
 <!--CSS-->
 <link rel="stylesheet" href="../common/css/common.css" type="text/css" media="all">
@@ -36,37 +39,20 @@
 <meta property="og:description" content="株式会社いないいないばぁは日本一のサプライズマーケティング会社です。口コミやリピートを増やすためのサプライズを提案し、人々に喜んでもらうためのコンサルティングを行います。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://www.i-i-b.jp/service/">
-<meta property="og:image" content="http://www.i-i-b.jp/common/img/common/fb.jpg">
+<meta property="og:image" content="http://www.i-i-b.jp/sp/common/img/fb.jpg">
+
+<?php @include '../analyticstracking.php'; ?>
+
 
 </head>
 <body>
 
 
+
 <div id="wrapper">
-  <!--header-->
-  <header>
-    <!--spnavi-->
-    <div class="head_sp">
-      <h1 class="logo"><a href="/"><img src="../common/img/h_logo.png" alt="十八番(おはこ)の島|株式会社いないいないばぁ"></a></h1>
-      <div class="sp_menubar">
-        <a class="popup-modal modal-close" href="#inline-wrap"><i></i></a>
-      </div>
-      <ul id="inline-wrap" class="mfp-hide sp_navmenu">
-        <li><a href="/"><span>TOP</span></a></li>
-        <li><a href="about/"><span>About</span></a></li>
-        <li>
-          <a href="blog/"><span>ブログ一覧</span></a>
-          <ul class="sp_subcategory">
-            <li><a href="#"><span>サブカテゴリ</span></a></li>
-            <li><a href="#"><span>サブカテゴリ</span></a></li>
-          </ul>
-        </li>
-        <li><a href="flow/"><span>制作の流れ</span></a></li>
-        <li><a href="faq/"><span>よくある質問</span></a></li>
-        <li><a href="contact/"><span>お問合せ</span></a></li>
-      </ul>
-    </div>
-  </header>
+
+  <?php @include '../temp/header.php'; ?>
+
   <!--container-->
   <div class="container" id="about">
     <section class="service_zone">
@@ -107,7 +93,7 @@
           <div class="block">
             <h3><img src="../common/img/title_service_02.png" alt="得意なこと"></h3>
             <!--list-->
-            <div class="work_list icon01">
+            <div class="work_list icon01" id="promotion">
               <h4>アイディア出しからファン創りまでお手伝いをする「プロモーション企画・制作」</h4>
               <div class="txt">
                 <p>世界で一つだけのとっておきのプロモーションを一緒に仕掛けます。</p>
@@ -126,7 +112,7 @@
               </div>
             </div>
             <!--list-->
-            <div class="work_list icon02">
+            <div class="work_list icon02" id="company">
               <h4>社内が変われば、結果が変わる。劇的な変化をもたらす「社内サプライズ」</h4>
               <div class="txt">
                 <p>もしかしたら、一生のうち１番長く過ごす場所は職場なのではないでしょうか。</p>
@@ -147,7 +133,7 @@
               </div>
             </div>
             <!--list-->
-            <div class="work_list icon03">
+            <div class="work_list icon03" id="consulting">
               <h4>サプライズの力で問題をアッサリ解決する「コンサルティング」</h4>
               <div class="txt">
                 <p>問題にぶち当たり、手も足も出なくなったとき。一筋の光を照らすようなアイディアを提供するサービスです。</p>
@@ -166,7 +152,7 @@
               </div>
             </div>
             <!--list-->
-            <div class="work_list icon04">
+            <div class="work_list icon04" id="web">
               <h4>３歩先のクリエイティブを生み出す「ウェブ制作」</h4>
               <div class="txt">
                 <p>今の時代、マジメ一辺倒のウェブを作ったとしても、それは「ただ作っただけ」で、本来の目的を達成せずに終わってしまいます。</p>
@@ -189,7 +175,7 @@
               </div>
             </div>
             <!--list-->
-            <div class="work_list icon05">
+            <div class="work_list icon05" id="movie">
               <h4>観る人の注目を集める「サプライズ動画制作」</h4>
               <div class="txt">
                 <p>人の胸を踊らせる企画、視聴者に響くシナリオ作り、細部までにこだわった撮影、インパクトを与える演出。</p>
@@ -208,7 +194,7 @@
               </div>
             </div>
             <!--list-->
-            <div class="work_list icon06">
+            <div class="work_list icon06" id="boardgame">
               <h4>新しい学びのカタチを提案する「ボードゲーム制作」</h4>
               <div class="txt">
                 <p>ボードゲームは、ただ遊ぶだけのものではありません。</p>
@@ -245,38 +231,12 @@
         </div><!--boxline-->
       </section><!--chara_box-->
     </section>
-    <section class="f_link">
-      <div class="f_serif">
-        <p class="photo"><img src="../common/img/icon_monster_01.png" alt="monster"></p>
-        <p class="arrow">ツギハドコイキマスカ？</p>
-      </div>
-      <p class="chara"><img src="../common/img/icon_monster_04.png" alt="monster"></p>
-      <ul class="f_list">
-        <li><a href="/"><img src="../common/img/icon_flink_01.png" alt="photo">
-        世界</a></li>
-        <li><a href="../company.php"><img src="../common/img/icon_flink_02.png" alt="photo">
-        会社概要</a></li>
-        <li><a href="../history.php"><img src="../common/img/icon_flink_03.png" alt="photo">
-        歴史</a></li>
-        <li><a href="../mission.php"><img src="../common/img/icon_flink_04.png" alt="photo">
-        ミッション</a></li>
-        <li><a href="../greeting.php"><img src="../common/img/icon_flink_05.png" alt="photo">
-        代表挨拶</a></li>
-        <li><a href="../credo.php"><img src="../common/img/icon_flink_06.png" alt="photo">
-        クレド</a></li>
-      </ul>
-    </section>
+    
+    <?php @include '../temp/footer_link.php'; ?>
+
   </div><!--container-->
 
-  <!--footer-->
-  <footer>
-    <p class="f_logo"><img src="../common/img/h_logo.png" alt="株式会社いないいないばぁ"></p>
-    <ul class="link">
-      <li><a href="#">特定商取引法に基づく表記について</a></li>
-      <li><a href="#">プライバシポリシー</a></li>
-    </ul>
-    <p class="copy">&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> <a href="/">IIB</a> All Rights Reserved.</p>
-  </footer>
+  <?php @include '../temp/footer.php'; ?>
 
 </div>
 
@@ -297,80 +257,13 @@ $(function () {
     $.magnificPopup.close();
   });
 });
+$(function(){
+  $("#ToggleMenu li.sub").on("click", function() {
+    $(this).next().slideToggle();
+    return false;
+  });
+});
 </script>
-<script type="text/javascript">
-// takernari
-    $( document ).ready(function() { // 6,32 5,38 2,34
-        $("#circle1").circliful({
-          dimension: 400,
-            animation: 1,
-            animationStep: 5,
-            foregroundBorderWidth: 10,
-            backgroundBorderWidth: 10,
-            percent: 40,
-            textSize: 28,
-            textStyle: 'font-size: 16px;',
-            textColor: '#303131',
-            multiPercentage: 1,
-            percentages: [10, 20, 30],
-            info: "test"
-        });
-        $("#circle2").circliful({
-          dimension: 240,
-            animation: 1,
-            animationStep: 5,
-            foregroundBorderWidth: 10,
-            backgroundBorderWidth: 10,
-            percent: 11,
-            textSize: 28,
-            textStyle: 'font-size: 12px;',
-            textColor: '#303131',
-            multiPercentage: 1,
-            percentages: [10, 20, 30]
-        });
-        $("#circle3").circliful({
-          dimension: 240,
-            animation: 1,
-            animationStep: 5,
-            foregroundBorderWidth: 10,
-            backgroundBorderWidth: 10,
-            percent: 20,
-            textSize: 28,
-            textStyle: 'font-size: 12px;',
-            textColor: '#303131',
-            multiPercentage: 1,
-            percentages: [10, 20, 30]
-        });
-        $("#circle4").circliful({
-          dimension: 240,
-            animation: 1,
-            animationStep: 5,
-            foregroundBorderWidth: 10,
-            backgroundBorderWidth: 10,
-            percent: 13,
-            textSize: 28,
-            textStyle: 'font-size: 12px;',
-            textColor: '#303131',
-            multiPercentage: 1,
-            percentages: [10, 20, 30]
-        });
-        $("#circle5").circliful({
-          dimension: 240,
-            animation: 1,
-            animationStep: 5,
-            foregroundBorderWidth: 10,
-            backgroundBorderWidth: 10,
-            percent: 13,
-            textSize: 28,
-            textStyle: 'font-size: 12px;',
-            textColor: '#303131',
-            multiPercentage: 1,
-            percentages: [10, 20, 30]
-        });
-    });
-</script>
-
-
 
 </body>
 </html>

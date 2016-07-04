@@ -1,3 +1,5 @@
+<?php @include 'temp/path.php'; ?>
+
 <?php
 ini_set( 'display_errors', 1 );
 
@@ -61,7 +63,7 @@ ini_set( 'display_errors', 1 );
 <!--[if IE 9]><html class="ie ie9"><![endif]-->
 <!--[if !IE]><!-->
 <html lang="ja" prefix="og: http://ogp.me/ns#">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
 
 <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><![endif]-->
@@ -69,13 +71,17 @@ ini_set( 'display_errors', 1 );
 <!--meta-->
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <meta name="description" content="<?php echo $item['description']; ?>">
-<meta name="keywords" content="【ここにキーワード】">
+<meta name="keywords" content="IIB,いないいないばぁ,サプライズマーケティング,サプマケ">
+
+
+
+<!--icon-->
+<link rel="shortcut icon" href="/sp/common/img/favicon.ico" />
+<link rel="apple-touch-icon" href="/sp/common/img/home-icon.png">
+
+<!--title・canonical-->
+<title><?php echo $item['title']; ?>| 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
 <link rel="canonical" href="http://www.i-i-b.jp/post.php?item_id={$item['item_id']}" />
-
-
-<!--title・icon-->
-<title><?php echo $item['title']; ?> | 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。</title>
-<link rel="shortcut icon" href="common/img/favicon.ico" />
 
 <!--CSS-->
 <link rel="stylesheet" href="common/css/common.css" type="text/css" media="all">
@@ -92,40 +98,20 @@ ini_set( 'display_errors', 1 );
 <meta property="og:title" content="<?php echo $item['title']; ?>|日本一のサプライズマーケティング会社【株式会社いないいないばぁ】">
 <meta property="og:site_name" content="株式会社いないいないばぁ">
 <meta property="og:description" content="<?php echo $item['description']; ?>">
-<meta property="og:type" content="article">
+<meta property="og:type" content="blog">
 <meta property="og:url" content="http://www.i-i-b.jp/post.php?item_id=<?php echo $item['item_id']; ?>">
 <meta property="og:image" content="http://www.i-i-b.jp/<?php echo $item['photo1']; ?>">
-<link rel="canonical" href="http://www.i-i-b.jp/post.php?item_id=<?php echo $item['item_id']; ?>">
+
+<?php @include 'analyticstracking.php'; ?>
 
 </head>
 <body>
 
 
 <div id="wrapper">
-  <!--header-->
-  <header>
-    <!--spnavi-->
-    <div class="head_sp">
-      <h1 class="logo"><a href="/"><img src="common/img/h_logo.png" alt="ニュースタイトル | 株式会社いないいないばぁ-サプライズマーケティングで口コミやリピートを増やすコンサルティングならお任せください。"></a></h1>
-      <div class="sp_menubar">
-        <a class="popup-modal modal-close" href="#inline-wrap"><i></i></a>
-      </div>
-      <ul id="inline-wrap" class="mfp-hide sp_navmenu">
-        <li><a href="/"><span>TOP</span></a></li>
-        <li><a href="about/"><span>About</span></a></li>
-        <li>
-          <a href="blog/"><span>ブログ一覧</span></a>
-          <ul class="sp_subcategory">
-            <li><a href="#"><span>サブカテゴリ</span></a></li>
-            <li><a href="#"><span>サブカテゴリ</span></a></li>
-          </ul>
-        </li>
-        <li><a href="flow/"><span>制作の流れ</span></a></li>
-        <li><a href="faq/"><span>よくある質問</span></a></li>
-        <li><a href="contact/"><span>お問合せ</span></a></li>
-      </ul>
-    </div>
-  </header>
+  
+  <?php @include 'temp/header.php'; ?>
+
   <!--container-->
   <div class="container" id="post">
     <ul class="charaparts_01">
@@ -153,15 +139,8 @@ ini_set( 'display_errors', 1 );
     </ul>
   </div><!--container-->
 
-  <!--footer-->
-  <footer>
-    <p class="f_logo"><img src="common/img/h_logo.png" alt="株式会社いないいないばぁ"></p>
-    <ul class="link">
-      <li><a href="tokusyo.php">特定商取引法に基づく表記について</a></li>
-      <li><a href="privacy.php">プライバシポリシー</a></li>
-    </ul>
-    <p class="copy">&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> <a href="/">IIB</a> All Rights Reserved.</p>
-  </footer>
+  <?php @include 'temp/footer.php'; ?>
+  
 
 </div>
 
@@ -178,6 +157,12 @@ $(function () {
   $(document).on('click', '.popup-modal-dismiss', function (e) {
     e.preventDefault();
     $.magnificPopup.close();
+  });
+});
+$(function(){
+  $("#ToggleMenu li.sub").on("click", function() {
+    $(this).next().slideToggle();
+    return false;
   });
 });
 </script>

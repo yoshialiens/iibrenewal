@@ -50,6 +50,7 @@
                         e = (new Date).getTime(), i = e - t, $(".operation").delay(2e3).fadeOut(500), $(".cover").stop(!0).delay(2e3).fadeOut(500)
                     })
                 },
+                /*
                 audio: function() {
                     if (!i.isiOS && !i.isAndroid) {
                         var t = s.audiojs,
@@ -62,6 +63,7 @@
                         })
                     }
                 },
+                */
                 pjax: function() {
                     $.pjax({
                         area: [".article"],
@@ -71,6 +73,7 @@
                             script: !1
                         },
                         link: "a.pjax",
+                        /*
                         callback: function(t) {
                             var n = location.pathname;
                             NHKSNS.initSNS(), f.visited(n, location.hash), "/special/amazon/" !== n ? (u = !1, $("body").addClass("column"), $(".article").stop(!0).css("visibility", "hidden").fadeInCss3(350, "ease-in"), $(".cover").stop(!0).css("visibility", "hidden").zoomInCss3(350, "ease-in-out")) : (u = !0, $("body").removeClass("column"), $(".article").stop(!0).fadeOutCss3(300, "ease-in-out"), $(".cover").stop(!0).zoomOutCss3(300, "ease-in-out")), "/special/amazon/series3/360/" == n && (embedpano({
@@ -81,6 +84,7 @@
                                 passQueryParameters: !0
                             }), $(".article__content__pano").height($(window).height() - 180)), i.isiOS || i.isAndroid || !p || ($("body").hasClass("column") ? e.pause() : e.play())
                         },
+                        */
                         callbacks: {
                             ajax: {
                                 complete: function() {}
@@ -171,6 +175,7 @@
                         y: o
                     })
                 },
+                //初期の表示位置の制御
                 getTouchesCenterPoint: function(t) {
                     var e = t.originalEvent.touches,
                         i = {
@@ -262,7 +267,7 @@
                 $(this).off(i), $(this).css({
                     visibility: "hidden",
                     animation: "none",
-                    display: "none"
+                    //display: "none"
                 })
             })
         }), $(this)
@@ -297,7 +302,7 @@
                 $(this).off(i), $(this).css({
                     visibility: "hidden",
                     animation: "none",
-                    display: "none"
+                    //display: "none"
                 })
             })
         }), $(this)
@@ -3190,7 +3195,7 @@
                         var o = jQuery("<div>");
                         return s = s.clone(!0), o.addClass(t.nss.elem + "-overlay").css({
                             background: "rgba(255, 255, 255, 0.8)",
-                            display: "none",
+                            //display: "none",
                             position: "fixed",
                             top: 0,
                             left: 0,
@@ -4631,7 +4636,7 @@
                 this.indicatorStyle[u.style.transitionTimingFunction] = t
             },
             refresh: function() {
-                this.transitionTime(), this.options.listenX && !this.options.listenY ? this.indicatorStyle.display = this.scroller.hasHorizontalScroll ? "block" : "none" : this.options.listenY && !this.options.listenX ? this.indicatorStyle.display = this.scroller.hasVerticalScroll ? "block" : "none" : this.indicatorStyle.display = this.scroller.hasHorizontalScroll || this.scroller.hasVerticalScroll ? "block" : "none", this.scroller.hasHorizontalScroll && this.scroller.hasVerticalScroll ? (u.addClass(this.wrapper, "iScrollBothScrollbars"), u.removeClass(this.wrapper, "iScrollLoneScrollbar"), this.options.defaultScrollbars && this.options.customStyle && (this.options.listenX ? this.wrapper.style.right = "8px" : this.wrapper.style.bottom = "8px")) : (u.removeClass(this.wrapper, "iScrollBothScrollbars"), u.addClass(this.wrapper, "iScrollLoneScrollbar"), this.options.defaultScrollbars && this.options.customStyle && (this.options.listenX ? this.wrapper.style.right = "2px" : this.wrapper.style.bottom = "2px"));
+                //this.transitionTime(), this.options.listenX && !this.options.listenY ? this.indicatorStyle.display = this.scroller.hasHorizontalScroll ? "block" : "none" : this.options.listenY && !this.options.listenX ? this.indicatorStyle.display = this.scroller.hasVerticalScroll ? "block" : "none" : this.indicatorStyle.display = this.scroller.hasHorizontalScroll || this.scroller.hasVerticalScroll ? "block" : "none", this.scroller.hasHorizontalScroll && this.scroller.hasVerticalScroll ? (u.addClass(this.wrapper, "iScrollBothScrollbars"), u.removeClass(this.wrapper, "iScrollLoneScrollbar"), this.options.defaultScrollbars && this.options.customStyle && (this.options.listenX ? this.wrapper.style.right = "8px" : this.wrapper.style.bottom = "8px")) : (u.removeClass(this.wrapper, "iScrollBothScrollbars"), u.addClass(this.wrapper, "iScrollLoneScrollbar"), this.options.defaultScrollbars && this.options.customStyle && (this.options.listenX ? this.wrapper.style.right = "2px" : this.wrapper.style.bottom = "2px"));
                 this.wrapper.offsetHeight;
                 this.options.listenX && (this.wrapperWidth = this.wrapper.clientWidth, this.options.resize ? (this.indicatorWidth = r.max(r.round(this.wrapperWidth * this.wrapperWidth / (this.scroller.scrollerWidth || this.wrapperWidth || 1)), 8), this.indicatorStyle.width = this.indicatorWidth + "px") : this.indicatorWidth = this.indicator.clientWidth, this.maxPosX = this.wrapperWidth - this.indicatorWidth, "clip" == this.options.shrink ? (this.minBoundaryX = -this.indicatorWidth + 8, this.maxBoundaryX = this.wrapperWidth - 8) : (this.minBoundaryX = 0, this.maxBoundaryX = this.maxPosX), this.sizeRatioX = this.options.speedRatioX || this.scroller.maxScrollX && this.maxPosX / this.scroller.maxScrollX), this.options.listenY && (this.wrapperHeight = this.wrapper.clientHeight, this.options.resize ? (this.indicatorHeight = r.max(r.round(this.wrapperHeight * this.wrapperHeight / (this.scroller.scrollerHeight || this.wrapperHeight || 1)), 8), this.indicatorStyle.height = this.indicatorHeight + "px") : this.indicatorHeight = this.indicator.clientHeight, this.maxPosY = this.wrapperHeight - this.indicatorHeight, "clip" == this.options.shrink ? (this.minBoundaryY = -this.indicatorHeight + 8, this.maxBoundaryY = this.wrapperHeight - 8) : (this.minBoundaryY = 0, this.maxBoundaryY = this.maxPosY), this.maxPosY = this.wrapperHeight - this.indicatorHeight, this.sizeRatioY = this.options.speedRatioY || this.scroller.maxScrollY && this.maxPosY / this.scroller.maxScrollY), this.updatePosition()
             },
@@ -4663,9 +4668,9 @@
 
         function t(t, e) {
             this.x = t, this.y = e
-        }
-        var e, i = 2500,
-            n = 2500,
+        }//高さと数値 translate
+        var e, i = 800,
+            n = 1612,
             s = Math.sqrt(Math.pow(i, 2) + Math.pow(n, 2)),
             o = .5 * s,
             r = .2,
@@ -4755,9 +4760,10 @@
             c = !0, this._velocity = t.zero, this._prevPosition = this._position, this._prevVelocity = t.zero
         }, this.dragEnd = function() {
             c = !1
+        /*
         }, this.pinchStart = function() {
             h || (h = !0, console.log("[pinchStart]"), this._tmpPosition.x = this._position.x / this.scale, this._tmpPosition.y = this._position.y / this.scale)
-        }, this.pinchEnd = function() {
+        */}, this.pinchEnd = function() {
             h && (h = !1, this.prevScale = this.scale, console.log("[pinchEnd]"), this._position.x = this._tmpPosition.x * this.scale, this._position.y = this._tmpPosition.y * this.scale)
         }, this.drag = function(e, i) {
             var n = e,
@@ -4781,8 +4787,9 @@
             */
         }, this.tile = function() {
             //初期の位置表示？
-            for (var t, e, s = $(".maps__container__inner__map:first-child"), o = -3; 4 > o; o++)
-                for (var r = -3; 4 > r; r++) t = i * r - .5 * i, e = n * o - .5 * n, s.clone(!0).attr("style", "-webkit-transform:scale(1, 1) rotate(0deg) translate(" + t + "px, " + e + "px);transform:scale(1, 1) rotate(0deg) translate(" + t + "px, " + e + "px)").appendTo(".maps__container__inner")
+            for (var t, e, s = $(".maps__container__inner__map:first-child"), o = 0; 1 > o; o++)
+                //for (var r = 0; 1 > r; r++) t = i * r - .5 * i, e = n * o - .5 * n, s.clone(!0).attr("style", "-webkit-transform:scale(1, 1) rotate(0deg) translate(" + t + "px, " + e + "px);transform:scale(1, 1) rotate(0deg) translate(" + t + "px, " + e + "px)").appendTo(".maps__container__inner")
+            for (var r = 0; 1 > r; r++) t = i * r - .5 * i, e = n * o - .5 * n, s.clone(!0).attr("style", "-webkit-transform:scale(1, 1) rotate(0deg) translate(" + t + "px, " + e + "px);transform:scale(1, 1) rotate(0deg) translate(" + t + "px, " + e + "px)").appendTo(".maps__container__inner")
                 	
         }, this.getStat = function() {
             var t = {};
