@@ -113,7 +113,7 @@
 			<li><a href="../"><img src="../common/img/common/menu/back-the-world.png" alt="世界に戻る" width="104" height="104"><p>世界に戻る</p></a></li>
 			<li><a href="../about.php"><img src="../common/img/common/menu/icon-about.png" alt="いないいないばぁの島" width="104" height="104"><p>いないいな<br>いばぁの島</p></a></li>
 			<li><a href="../service.php"><img src="../common/img/common/menu/icon-service.png" alt="十八番の島" width="104" height="104"><p>十八番の島</p></a></li>
-			<li><a href="../monster.php"><img src="../common/img/common/menu/icon-monster.png" alt="モンスターの島" width="104" height="104"><p>モンスターの島</p></a></li>
+			<li><a href="../member.php"><img src="../common/img/common/menu/icon-monster.png" alt="モンスターの島" width="104" height="104"><p>モンスターの島</p></a></li>
 			<li><a href="../surprise.php"><img src="../common/img/common/menu/icon-surprise.png" alt="サプライズの島" width="104" height="104"><p>サプライズの島</p></a></li>
 			<li class="Last"><a href="../blog.php"><img src="../common/img/common/menu/icon-blog.png" alt="ブログの島" width="104" height="104"><p>ブログの島</p></a></li>
 			<li><a href="../present.php"><img src="../common/img/common/menu/icon-present.png" alt="プレゼントの島" width="104" height="104"><p>プレゼントの島</p></a></li>

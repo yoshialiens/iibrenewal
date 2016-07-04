@@ -12,7 +12,7 @@
 		header("location: login.php");
 		exit;
 	}
-	$server_url = $_SERVER['SERVER_NAME'] . "/dev-2/";
+	$server_url = $_SERVER['SERVER_NAME'] . "/";
 	if(@$_SERVER['HTTPS']=='on'){
 		$server_url = "https://" . $server_url;
 	}else{

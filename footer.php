@@ -1,7 +1,7 @@
 <?php
-$f_logo = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '/dev-2/common/img/header/logo.png';
-$f_flogo = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '/dev-2/common/img/header/logo-footer.png';
-$f_url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '/dev-2';
+$f_logo = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '/common/img/header/logo.png';
+$f_flogo = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '/common/img/header/logo-footer.png';
+$f_url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '';
 ?>
 
 <footer>
@@ -21,3 +21,5 @@ $f_url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HO
 <div class="Logo"><img src="<?php echo $f_flogo; ?>" width="337" height="48" alt="株式会社いないいないばぁ"/></div>
 <p>&copy; <script type="text/javascript">var iNavInt_curYear = new Date().getUTCFullYear(); document.write(iNavInt_curYear);</script> IIB All Rights Reserved.</p>
 </footer>
+
+<?php @include '/analyticstracking.php'; ?>

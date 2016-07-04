@@ -29,6 +29,11 @@
 #ContBlock .IntroSpec ul{}
 #ContBlock .IntroSpec ul li{float:left;width:160px;height:auto;margin:0 10px 20px;}
 #ContBlock .IntroSpec ul li .graph{text-align:center;}
+/*#circle1 svg{display:none;}
+#circle2 svg{display:none;}
+#circle3 svg{display:none;}
+#circle4 svg{display:none;}
+#circle5 svg{display:none;}*/
 #circle1 .circle{stroke:#3498db;}
 #circle1 .border{stroke:#88ccfa;}
 #circle2 .circle{stroke:#f1c40f;}

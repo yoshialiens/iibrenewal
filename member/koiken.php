@@ -119,7 +119,7 @@
 		</div>
 	</div>
 	<div class="IntroBtn clearfix">
-		<a href="#"><button class="btn btn-lunch btn-act">この人にランチをおごってもらう</button><p class="BtnImg"><img src="../common/img/member/common/btn-icon.png" alt="特別企画" width="86" height="108"></p></a>
+		<a href="../contact"><button class="btn btn-lunch btn-act">この人にランチをおごってもらう</button><p class="BtnImg"><img src="../common/img/member/common/btn-icon.png" alt="特別企画" width="86" height="108"></p></a>
 	</div>
 </div>
 
@@ -129,7 +129,7 @@
 			<h3>ツギハダレアイマスカ？</h3>
 		</div>
 		<ul class="Menu clearfix Hv">
-			<li><a href="#"><img src="../common/img/member/common/back-the-world.png" alt="世界に戻る" width="104" height="104"><p>世界に戻る</p></a></li>
+			<li><a href="../"><img src="../common/img/member/common/back-the-world.png" alt="世界に戻る" width="104" height="104"><p>世界に戻る</p></a></li>
 			<li><a href="takenari.php"><img src="../common/img/member/common/icon-takenari.png" alt="たけなり" width="104" height="104"><p>たけなり</p></a></li>
 			<li><a href="koiken.php"><img src="../common/img/member/common/icon-koiken.png" alt="こいけん" width="104" height="104"><p>こいけん</p></a></li>
 			<li><a href="kuni.php"><img src="../common/img/member/common/icon-kuni.png" alt="くに" width="104" height="104"><p>くに</p></a></li>

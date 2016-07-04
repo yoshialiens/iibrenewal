@@ -11,7 +11,7 @@
 #NewsBlock .btn01 { position:absolute; top:260px; left:230px;animation-name: Hatch02;-webkit-animation-name: Hatch02;animation-delay:0s;-webkit-animation-delay:0s; animation-duration: 4s;-webkit-animation-duration: 4s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 
 /* #NewsHvBlock */
-#NewsHvBlock {position:absolute; margin: 170px 0 0 120px;width: 820px; height:260px;}
+#NewsHvBlock {display:none; position:absolute; margin: 170px 0 0 120px;width: 820px; height:260px;}
 #NewsHvBlock .monster01 { position:absolute; top:40px; left:40px; width:215px; height:204px; overflow:hidden;}
 #NewsHvBlock .NewsBoard { background:url(../img/index/news/hv/borad-01.png) no-repeat; position:absolute;top:-50px; left:210px;width:609px;height:271px;padding:20px 46px;box-sizing:border-box;}
 #NewsHvBlock .NewsBoard h3 {margin:0 0 10px -20px;}
@@ -35,7 +35,7 @@
 #AboutBlock .btn01 { position:absolute; top:280px; left:190px;animation-name: Hatch02;-webkit-animation-name: Hatch02;animation-delay:1.4s;-webkit-animation-delay:1.4s; animation-duration: 4s;	-webkit-animation-duration: 4s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 
 /* #AboutHvBlock */
-#AboutHvBlock { position:absolute; margin: 650px 0 0 180px;width:752px;height:159px;}
+#AboutHvBlock {display:none; position:absolute; margin: 650px 0 0 180px;width:752px;height:159px;}
 #AboutHvBlock h3 {margin:0 0 0px 110px;}
 #AboutHvBlock h3 img {width:402px;height:38px;}
 #AboutHvBlock .menu{position:relative;}
@@ -55,7 +55,7 @@
 #ServiceBlock .btn01 { position:absolute; top:226px; left:126px;animation-name: Hatch02;-webkit-animation-name: Hatch02;animation-delay:3s;-webkit-animation-delay:3s; animation-duration: 4s;	-webkit-animation-duration: 4s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 
 /* #ServiceHvBlock */
-#ServiceHvBlock { position:absolute; margin: 630px 0 0 620px;width: 540px; height:640px;}
+#ServiceHvBlock {display:none; position:absolute; margin: 630px 0 0 620px;width: 540px; height:640px;}
 #ServiceHvBlock .balloon{position:relative;}
 #ServiceHvBlock .balloon ul li{position:absolute;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 #ServiceHvBlock .balloon ul li.balloon01{top:210px;left:0;}
@@ -76,7 +76,7 @@
 #MemberBlock .btn01 { position:absolute; top:-34px; left:260px;animation-name: Hatch02;-webkit-animation-name: Hatch02;animation-delay:2s;-webkit-animation-delay:2s; animation-duration: 4s;	-webkit-animation-duration: 4s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 
 /* #MemberHvBlock */
-#MemberHvBlock { position:absolute; margin: 1176px 0 0 20px;width: 820px; height:260px;}
+#MemberHvBlock {display:none; position:absolute; margin: 1176px 0 0 20px;width: 820px; height:260px;}
 #MemberHvBlock .monster01 { position:absolute; top:40px; left:38px;animation: rumble 0.16s linear infinite;}
 #MemberHvBlock .MemberBalloon { background:url(../img/index/member/hv/balloon-01.png) no-repeat; position:absolute;top:54px;left:200px;width:305px;height:107px;padding:0;box-sizing:border-box;}
 #MemberHvBlock .MemberBalloon .BalloonInner{margin:24px 0 0 58px;}
@@ -98,7 +98,7 @@
 #SurpriseBlock .btn01 { position:absolute; top:210px; left:340px;animation-name: Hatch02;-webkit-animation-name: Hatch02;animation-delay:0.6s;-webkit-animation-delay:0.6s; animation-duration: 4s;	-webkit-animation-duration: 4s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 
 /* #SurpriseHvBlock */
-#SurpriseHvBlock { position:absolute; margin: 1230px 0 0 620px;width: 540px; height:640px;}
+#SurpriseHvBlock {display:none; position:absolute; margin: 1230px 0 0 620px;width: 540px; height:640px;}
 #SurpriseHvBlock .menu{position:relative;}
 #SurpriseHvBlock .menu ul li{position:absolute;animation-name: Hatch01;-webkit-animation-name: Hatch01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 #SurpriseHvBlock .menu ul li.btn01{top:40px;left:120px;}
@@ -122,7 +122,7 @@
 #PresentBlock .btn01 { position:absolute; top:76px; left:490px;animation-name: Hatch02;-webkit-animation-name: Hatch02;animation-delay:3.4s;-webkit-animation-delay:3.4s; animation-duration: 4s;	-webkit-animation-duration: 4s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 
 /* #PresentHvBlock */
-#PresentHvBlock { position:absolute; margin: 1830px 0 0 220px;width:740px;height:500px;}
+#PresentHvBlock {display:none; position:absolute; margin: 1830px 0 0 220px;width:740px;height:500px;}
 #PresentHvBlock .menu{position:relative;}
 #PresentHvBlock .menu ul li{position:absolute;animation-name: Toss-01;-webkit-animation-name: Toss-01; animation-duration: 2s;	-webkit-animation-duration: 2s;animation-timing-function: ease-in-out;	-webkit-animation-timing-function: ease-in-out;transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%; visibility: visible !important;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 #PresentHvBlock .menu ul li.btn01{top:100px;left:240px;}

@@ -1,4 +1,4 @@
-<?php $h_url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . '/dev-2'; ?>
+<?php $h_url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . ''; ?>
 
 <div id="ToggleMenu">
 <button class="close-button" id="close-button">Close Menu</button>
